@@ -92,9 +92,9 @@ body {
   color: #575962; }
 
 a {
-  color: #1572E8; }
+  color: #ebedf0; }
   a:hover, a:focus {
-    color: #1269DB; }
+    color: #ebedf0; }
 
 h1,
 .h1 {
@@ -300,7 +300,7 @@ body {
   width: 250px;
   height: 62px;
   line-height: 60px;
-  color: #333333;
+  color: #679461;
   z-index: 1001;
   font-size: 17px;
   font-weight: 400;
@@ -319,7 +319,7 @@ body {
       width: 35px;
       height: 35px; }
   .logo-header .logo {
-    color: #575962;
+    color: #e8e9ee;
     opacity: 1;
     position: relative;
     height: 100%; }
@@ -342,7 +342,7 @@ body {
     .logo-header .navbar-toggler .navbar-toggler-icon {
       height: 1em;
       width: 1em;
-      color: #545454;
+      color: #c94646;
       font-size: 22px; }
   .logo-header .more {
     background: transparent;
@@ -358,7 +358,7 @@ body {
   line-height: 20px;
   padding: 0px !important;
   background: transparent !important;
-  color: #575962 !important; }
+  color: #d9dbe4 !important; }
   .btn-toggle:hover, .btn-toggle:focus {
     opacity: 1; }
 
@@ -388,7 +388,7 @@ body {
   color: #ffffff;
   font-weight: 200;
   background: #ffffff;
-  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  box-shadow: 4px 4px 10px rgba(222, 220, 226, 0.06);
   transition: all .3s; }
   .sidebar.full-height, .sidebar[data-background-color="white"].full-height {
     margin-top: 0; }
@@ -410,11 +410,11 @@ body {
       .sidebar .user .info a > span, .sidebar[data-background-color="white"] .user .info a > span {
         font-size: 14px;
         font-weight: 400;
-        color: #777;
+        color: #d61fa8;
         display: flex;
         flex-direction: column; }
         .sidebar .user .info a > span .user-level, .sidebar[data-background-color="white"] .user .info a > span .user-level {
-          color: #555;
+          color: #1bd634;
           font-weight: 600;
           font-size: 12px;
           margin-top: 5px; }
@@ -444,7 +444,7 @@ body {
     float: none;
     margin-top: 20px; }
     .sidebar .nav .nav-section, .sidebar[data-background-color="white"] .nav .nav-section {
-      margin: 15px 0 0 0; }
+      margin: 5px 0 0 0; }
       .sidebar .nav .nav-section .sidebar-mini-icon, .sidebar[data-background-color="white"] .nav .nav-section .sidebar-mini-icon {
         text-align: center;
         font-size: 15px;
@@ -457,8 +457,8 @@ body {
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.5px;
-        margin-bottom: 12px;
-        margin-top: 20px; }
+        margin-bottom: 5px;
+        margin-top: 5px; }
     .sidebar .nav > .nav-item, .sidebar[data-background-color="white"] .nav > .nav-item {
       display: list-item; }
       .sidebar .nav > .nav-item.active > a, .sidebar[data-background-color="white"] .nav > .nav-item.active > a {
@@ -7845,5 +7845,6 @@ body {
 .bg-danger-gradient {
   background: #F25961 !important;
   background: linear-gradient(-45deg, #E80A15, #F25961) !important; }
+
 
 /*# sourceMappingURL=atlantis.css.map */
