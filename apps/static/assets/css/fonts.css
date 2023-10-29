@@ -5697,6 +5697,12 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+.fab {
+  font-family: 'Font Awesome 5 Solid';
+  font-weight: 900;
+  color:#005ea8;
+}
+
 /* Simple Line Icons */
 
 @font-face {

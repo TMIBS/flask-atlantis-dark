@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwachstellen Data Display</title>
+</head>
+<body>
+    <h1>Data from asset_data.json</h1>
+    <table border="1" id="data-table">
+        <thead>
+            <tr>
+                <th>Address</th>
+                <th>Name</th>
+                <th>Operating System</th>
+                <th>Malware</th>
+                <th>Exploits</th>
+                <th>Vulnerabilities</th>
+                <th>Risk Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be inserted here -->
+        </tbody>
+    </table>
+
+    <script src="{{ url_for('static', filename='js/assets.js') }}"></script>
+</body>
+</html>

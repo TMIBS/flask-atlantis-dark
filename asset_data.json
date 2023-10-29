@@ -1,0 +1,4277 @@
+[
+    {
+        "address": "10.243.62.27",
+        "name": "empirum02.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 509.0
+    },
+    {
+        "address": "10.243.62.19",
+        "name": "MATRIXDB01.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 335.0
+    },
+    {
+        "address": "10.243.62.24",
+        "name": "Empirum01.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 509.0
+    },
+    {
+        "address": "10.243.62.31",
+        "name": "adsca.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 442.0
+    },
+    {
+        "address": "10.243.62.25",
+        "name": "MatrixDMZDepot.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.62.18",
+        "name": "MATRIXAPP01.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 1758.0
+    },
+    {
+        "address": "10.243.62.22",
+        "name": "admincenter01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.62.21",
+        "name": "adaudit01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 587.0
+    },
+    {
+        "address": "10.243.60.250",
+        "name": null,
+        "operating_system": "Debian Linux 9.0",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 13,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.60.218",
+        "name": "JUGTOSCASRV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 1163.0
+    },
+    {
+        "address": "10.243.60.232",
+        "name": "WTSJUG12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.229",
+        "name": "WTSJUG10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.217",
+        "name": "NSYSTOSCACL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 475.0
+    },
+    {
+        "address": "10.243.60.210",
+        "name": "LAEMMKOMANAL2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 10,
+        "risk_score": 2412.0
+    },
+    {
+        "address": "10.243.60.231",
+        "name": "WTSJUG11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.230",
+        "name": "WTSELINA1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 3860.0
+    },
+    {
+        "address": "10.243.60.222",
+        "name": "JUGTOSCACL01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.219",
+        "name": "JUGTOSCACL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 3602.0
+    },
+    {
+        "address": "10.243.60.112",
+        "name": "webdta2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1216.0
+    },
+    {
+        "address": "10.243.60.249",
+        "name": null,
+        "operating_system": "Debian Linux 9.0",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.60.81",
+        "name": "votemantest01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 3540.0
+    },
+    {
+        "address": "10.243.60.198",
+        "name": "THINPRINTLIC6.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1946.0
+    },
+    {
+        "address": "10.243.60.223",
+        "name": "JUGTOSCACL02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.216",
+        "name": "JUGTOSCALCL2019.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 475.0
+    },
+    {
+        "address": "10.243.60.68",
+        "name": "HVVOTEMAN3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.60.72",
+        "name": "voteman02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2378.0
+    },
+    {
+        "address": "10.243.60.71",
+        "name": "voteman01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2820.0
+    },
+    {
+        "address": "10.243.62.23",
+        "name": "WINPS1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1162.0
+    },
+    {
+        "address": "10.243.60.111",
+        "name": "WEBDTA1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1513.0
+    },
+    {
+        "address": "10.243.60.211",
+        "name": "JUGWEB01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2391.0
+    },
+    {
+        "address": "10.243.60.220",
+        "name": "DBMIG.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 22,
+        "risk_score": 7802.0
+    },
+    {
+        "address": "10.243.60.214",
+        "name": "JUGWEB04.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2391.0
+    },
+    {
+        "address": "10.243.60.213",
+        "name": "JUGWEB03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 73,
+        "risk_score": 33725.0
+    },
+    {
+        "address": "10.243.55.140",
+        "name": "hvhuh01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.55.134",
+        "name": "wtshuh1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.55.151",
+        "name": "huhrasoft1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.55.145",
+        "name": "dbhuh01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1044.0
+    },
+    {
+        "address": "10.243.53.249",
+        "name": "WTSOWI21T.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.55.133",
+        "name": "zenlb-huh",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.53.231",
+        "name": "WTSOWI11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.53.234",
+        "name": "WTSOWI14.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.53.229",
+        "name": null,
+        "operating_system": "Debian Linux 8.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 4361.0
+    },
+    {
+        "address": "10.243.53.233",
+        "name": "WTSOWI13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.53.232",
+        "name": "WTSOWI12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.53.236",
+        "name": "OWICORE.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2527.0
+    },
+    {
+        "address": "10.243.53.189",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 13,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.53.190",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.53.173",
+        "name": "WTSSOMACOS20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.75.235",
+        "name": "NSCALESAP.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3616.0
+    },
+    {
+        "address": "10.243.53.188",
+        "name": "PVRAT01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 16,
+        "risk_score": 5508.0
+    },
+    {
+        "address": "10.243.53.180",
+        "name": "SESSIONNETASP02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1848.0
+    },
+    {
+        "address": "10.243.53.170",
+        "name": "SESSIONNETASP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1848.0
+    },
+    {
+        "address": "10.243.53.239",
+        "name": "OWI-MFT.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2668.0
+    },
+    {
+        "address": "10.243.75.238",
+        "name": "NSCALESAPSL2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.53.238",
+        "name": "OWI-SProv.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 10,
+        "risk_score": 2987.0
+    },
+    {
+        "address": "10.243.75.236",
+        "name": "NSCALESAPSL1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.75.237",
+        "name": "NSCALESAP2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2327.0
+    },
+    {
+        "address": "10.243.53.175",
+        "name": "WTSSOMACOS22",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.53.164",
+        "name": "somacos20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 455.0
+    },
+    {
+        "address": "172.16.237.183",
+        "name": null,
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2383.0
+    },
+    {
+        "address": "172.16.237.182",
+        "name": null,
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2383.0
+    },
+    {
+        "address": "172.16.237.194",
+        "name": "0276-abdata.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 23,
+        "risk_score": 5696.0
+    },
+    {
+        "address": "10.243.75.68",
+        "name": "0023-Docuware.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 90,
+        "risk_score": 41308.0
+    },
+    {
+        "address": "10.243.72.245",
+        "name": "HDDC4RO.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2213.0
+    },
+    {
+        "address": "10.243.72.254",
+        "name": "TDDC3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 897.0
+    },
+    {
+        "address": "10.243.79.55",
+        "name": "AVVISOWEB1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 169,
+        "risk_score": 74508.0
+    },
+    {
+        "address": "10.243.72.209",
+        "name": "FILESRV01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2162.0
+    },
+    {
+        "address": "10.243.72.237",
+        "name": "TDDC2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 897.0
+    },
+    {
+        "address": "10.243.79.39",
+        "name": "WTSAVVISO8.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 97,
+        "risk_score": 45488.0
+    },
+    {
+        "address": "10.243.79.50",
+        "name": "dbavviso1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 790.0
+    },
+    {
+        "address": "10.243.72.201",
+        "name": "LKOMDB.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 20,
+        "risk_score": 4860.0
+    },
+    {
+        "address": "10.243.78.212",
+        "name": "THINPRINTLIC5.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1946.0
+    },
+    {
+        "address": "10.243.72.184",
+        "name": "DBSQL5.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2093.0
+    },
+    {
+        "address": "10.243.78.209",
+        "name": "CTXLIC.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 11,
+        "risk_score": 2909.0
+    },
+    {
+        "address": "10.243.72.202",
+        "name": "LAEMMKOM7.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 98,
+        "risk_score": 44763.0
+    },
+    {
+        "address": "10.243.79.5",
+        "name": "WTSPROKOMM2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 93,
+        "risk_score": 42591.0
+    },
+    {
+        "address": "10.243.79.4",
+        "name": "WTSPROKOMM1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 97,
+        "risk_score": 44460.0
+    },
+    {
+        "address": "10.243.72.116",
+        "name": "KDOWEB.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 37,
+        "risk_score": 11837.0
+    },
+    {
+        "address": "10.243.72.97",
+        "name": "OCEPORTALWEB01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 19,
+        "risk_score": 9090.0
+    },
+    {
+        "address": "10.243.72.99",
+        "name": "DBSQL8.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 36,
+        "risk_score": 11752.0
+    },
+    {
+        "address": "10.243.72.34",
+        "name": "ROOTDC1.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2698.0
+    },
+    {
+        "address": "10.243.72.38",
+        "name": "TDDC1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1573.0
+    },
+    {
+        "address": "10.243.79.41",
+        "name": "WTSAVVISOADMIN.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 11,
+        "vulnerabilities": 172,
+        "risk_score": 76695.0
+    },
+    {
+        "address": "10.243.72.95",
+        "name": "LAEMMKOMDB2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 20,
+        "risk_score": 4860.0
+    },
+    {
+        "address": "10.243.72.89",
+        "name": "OCEPORTALAPP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.72.65",
+        "name": "DBSQL7.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 28,
+        "risk_score": 8410.0
+    },
+    {
+        "address": "10.243.79.36",
+        "name": "AVTRANS.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 4610.0
+    },
+    {
+        "address": "10.243.72.56",
+        "name": "ROOTDC3.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2022.0
+    },
+    {
+        "address": "10.243.72.52",
+        "name": "IZNCRYPT01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2077.0
+    },
+    {
+        "address": "10.243.72.35",
+        "name": "ROOTDC2.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2022.0
+    },
+    {
+        "address": "10.243.73.13",
+        "name": "logafarm.kdo.de",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 12,
+        "risk_score": 3568.0
+    },
+    {
+        "address": "10.243.79.40",
+        "name": "WTSAVVISO9.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 96,
+        "risk_score": 45807.0
+    },
+    {
+        "address": "10.243.79.38",
+        "name": "WTSAVVISO7.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 96,
+        "risk_score": 45807.0
+    },
+    {
+        "address": "10.243.72.16",
+        "name": "rootdc1-neu.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1118.0
+    },
+    {
+        "address": "10.243.73.210",
+        "name": "GISDB.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 29,
+        "risk_score": 8410.0
+    },
+    {
+        "address": "10.243.78.200",
+        "name": "WSUS1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 676.0
+    },
+    {
+        "address": "10.243.73.83",
+        "name": null,
+        "operating_system": "Debian Linux 6.0",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 29,
+        "risk_score": 9253.0
+    },
+    {
+        "address": "10.243.73.87",
+        "name": null,
+        "operating_system": "Debian Linux 6.0",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 29,
+        "risk_score": 9253.0
+    },
+    {
+        "address": "10.243.73.148",
+        "name": "wtsnav08.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 823.0
+    },
+    {
+        "address": "10.243.73.112",
+        "name": "KODAK.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1399.0
+    },
+    {
+        "address": "10.243.73.218",
+        "name": "WTSGIS2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 4,
+        "vulnerabilities": 31,
+        "risk_score": 13746.0
+    },
+    {
+        "address": "10.243.78.201",
+        "name": "WINLIC2019.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 1892.0
+    },
+    {
+        "address": "10.243.73.116",
+        "name": "NSCALE11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1651.0
+    },
+    {
+        "address": "10.243.73.211",
+        "name": "ARCGISENTERP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.73.113",
+        "name": "NSCALE8.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2501.0
+    },
+    {
+        "address": "10.243.73.101",
+        "name": "NSCALE2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.73.114",
+        "name": "NSCALE9.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2327.0
+    },
+    {
+        "address": "10.243.73.214",
+        "name": "ARCGISIPWEB01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 11,
+        "risk_score": 3677.0
+    },
+    {
+        "address": "10.243.73.200",
+        "name": "GISMASTERPORTAL01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 27,
+        "risk_score": 7895.0
+    },
+    {
+        "address": "10.243.73.213",
+        "name": "ARCGISWEB01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 84,
+        "risk_score": 39987.0
+    },
+    {
+        "address": "10.243.73.207",
+        "name": "GISSERVER99.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 24,
+        "risk_score": 9681.0
+    },
+    {
+        "address": "10.243.73.212",
+        "name": "ARCGISENTERP02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.73.146",
+        "name": "wtsnav06.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 823.0
+    },
+    {
+        "address": "10.243.73.219",
+        "name": "WTSGIS1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 98,
+        "risk_score": 45943.0
+    },
+    {
+        "address": "10.243.73.147",
+        "name": "wtsnav07.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 823.0
+    },
+    {
+        "address": "10.243.73.204",
+        "name": "GISSERVER2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.73.102",
+        "name": "NSCALESL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.72.15",
+        "name": "DBSQL4.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 10,
+        "risk_score": 2412.0
+    },
+    {
+        "address": "10.243.73.205",
+        "name": "GISSERVER1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.73.117",
+        "name": "NSCALE12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2976.0
+    },
+    {
+        "address": "10.243.73.103",
+        "name": "NSCALE3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1332.0
+    },
+    {
+        "address": "10.243.73.149",
+        "name": "wtsnav09.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 823.0
+    },
+    {
+        "address": "10.243.73.115",
+        "name": "NSCALE10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2501.0
+    },
+    {
+        "address": "10.243.73.215",
+        "name": "WEBGIS1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 18,
+        "risk_score": 5589.0
+    },
+    {
+        "address": "10.243.73.150",
+        "name": "wtsnav10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 823.0
+    },
+    {
+        "address": "10.243.73.100",
+        "name": "NSCALE1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.73.107",
+        "name": "NSCALE7.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2327.0
+    },
+    {
+        "address": "10.243.73.137",
+        "name": "nsysfarm.anwendung1.ads.kdo.de",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.73.105",
+        "name": "NSCALE5.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2327.0
+    },
+    {
+        "address": "10.243.73.106",
+        "name": "NSCALE6.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2501.0
+    },
+    {
+        "address": "10.243.73.104",
+        "name": "NSCALE4.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.73.67",
+        "name": "WTSWOHNITN2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.73.66",
+        "name": "WTSWOHNITN1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.73.71",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.73.70",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 13,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.33.230.4",
+        "name": "KDOSERVICE.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 442.0
+    },
+    {
+        "address": "10.243.73.26",
+        "name": "HVWTSLOGA5.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 11,
+        "risk_score": 3036.0
+    },
+    {
+        "address": "10.243.73.6",
+        "name": "THINPRINTLIC4.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 13,
+        "risk_score": 3766.0
+    },
+    {
+        "address": "10.243.78.68",
+        "name": "MultiMessenger1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 1064.0
+    },
+    {
+        "address": "10.243.79.10",
+        "name": "ZENLBPROKOMM2022",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 16,
+        "risk_score": 4362.0
+    },
+    {
+        "address": "10.243.73.25",
+        "name": "logadta2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 13,
+        "risk_score": 4017.0
+    },
+    {
+        "address": "10.243.66.185",
+        "name": "WTSLAEMMKOM15.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.229",
+        "name": "WTSCPLKOLTEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.177",
+        "name": "WTSLAEMMKOM07.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.214",
+        "name": "WTSCPLKA14.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.77.7",
+        "name": "PROBAUGASP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1330.0
+    },
+    {
+        "address": "10.243.66.172",
+        "name": "WTSLAEMMKOM02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.151",
+        "name": "DBLAEMMKOMFRI.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.66.160",
+        "name": "DBLAEMMKOMCLP.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.179",
+        "name": "WTSLAEMMKOM09.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.211",
+        "name": "WTSCPLKA11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.180",
+        "name": "WTSLAEMMKOM10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.173",
+        "name": "WTSLAEMMKOM03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.77.71",
+        "name": "WTSNHKIGA01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.161",
+        "name": "WTSLISSA1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 10,
+        "risk_score": 2746.0
+    },
+    {
+        "address": "10.243.66.207",
+        "name": "DBCOMPASS.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 95,
+        "risk_score": 43287.0
+    },
+    {
+        "address": "10.243.66.206",
+        "name": "WTSCPLKAUPDATE.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1283.0
+    },
+    {
+        "address": "10.243.77.36",
+        "name": "ISFOX.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2401.0
+    },
+    {
+        "address": "10.243.66.233",
+        "name": "WTSCPLKOL13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 1443.0
+    },
+    {
+        "address": "10.243.66.186",
+        "name": "WTSLAEMMKOM16.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.165",
+        "name": "DBWOHNGELD.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.66.182",
+        "name": "WTSLAEMMKOM12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.210",
+        "name": "WTSCPLKA10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.77.112",
+        "name": "IZNCRYPT02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2077.0
+    },
+    {
+        "address": "10.243.66.145",
+        "name": "LAEMMKOM11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 8,
+        "risk_score": 2286.0
+    },
+    {
+        "address": "10.243.66.171",
+        "name": "WTSLAEMMKOM01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.144",
+        "name": "LAEMMKOMDB3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 7,
+        "risk_score": 1617.0
+    },
+    {
+        "address": "10.243.66.240",
+        "name": "WTSALVA1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.183",
+        "name": "WTSLAEMMKOM13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.187",
+        "name": "WTSLAEMMKOM17.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.215",
+        "name": "WTSCPLKA15.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.184",
+        "name": "WTSLAEMMKOM14.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.174",
+        "name": "WTSLAEMMKOM04.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.190",
+        "name": "WTSLAEMMKOM20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.77.69",
+        "name": "NHKIGAASP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 629.0
+    },
+    {
+        "address": "10.243.66.154",
+        "name": "DBLAEMMKOMBOESEL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.176",
+        "name": "WTSLAEMMKOM06.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.220",
+        "name": "WTSCPLKA20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.218",
+        "name": "WTSCPLKA18.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.213",
+        "name": "WTSCPLKA13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.168",
+        "name": "DBLAEMMKOMSA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.212",
+        "name": "WTSCPLKA12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.219",
+        "name": "WTSCPLKA19.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.209",
+        "name": "WTSCPLKABATCH.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.153",
+        "name": "DBLAEMMKOMLKA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.221",
+        "name": "WTSCPLKA21.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1892.0
+    },
+    {
+        "address": "10.243.66.189",
+        "name": "WTSLAEMMKOM19.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.175",
+        "name": "WTSLAEMMKOM05.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.217",
+        "name": "WTSCPLKA17.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.230",
+        "name": "WTSCPLKOL10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 1443.0
+    },
+    {
+        "address": "10.243.66.216",
+        "name": "WTSCPLKA16.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.231",
+        "name": "WTSCPLKOL11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 1443.0
+    },
+    {
+        "address": "10.243.66.181",
+        "name": "WTSLAEMMKOM11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.178",
+        "name": "WTSLAEMMKOM08.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.188",
+        "name": "WTSLAEMMKOM18.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 988.0
+    },
+    {
+        "address": "10.243.66.232",
+        "name": "WTSCPLKOL12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 1443.0
+    },
+    {
+        "address": "10.243.77.100",
+        "name": "SOZ-HISTORIE01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.152",
+        "name": "DBLAEMMKOMLKOL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.156",
+        "name": "DBLAEMMKOMLFZSH.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.66.91",
+        "name": "navapp01",
+        "operating_system": "Ubuntu Linux 22.04",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 4081.0
+    },
+    {
+        "address": "10.243.66.200",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.77.78",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 13,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.66.250",
+        "name": "ZENLBCOMPASSLKOL2020",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 16,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.66.199",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.77.77",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.66.134",
+        "name": "LAEMMKOMANAL4.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 1758.0
+    },
+    {
+        "address": "10.243.66.135",
+        "name": "LAEMMKOMANAL1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 6,
+        "risk_score": 1936.0
+    },
+    {
+        "address": "10.243.66.241",
+        "name": "ZENLBBUTLER2022",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 16,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.66.169",
+        "name": "ZENLBLAEMMKOM",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.66.136",
+        "name": "LAEMMKOMANAL3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.66.140",
+        "name": null,
+        "operating_system": "Debian Linux 9.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.66.141",
+        "name": null,
+        "operating_system": "Debian Linux 9.0",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3217.0
+    },
+    {
+        "address": "10.243.66.100",
+        "name": "ZENLBALLGEMEIN",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 16,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.66.150",
+        "name": "DBLAEMMKOM.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 28,
+        "risk_score": 8542.0
+    },
+    {
+        "address": "10.243.66.92",
+        "name": "navapp02",
+        "operating_system": "Ubuntu Linux 20.04",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 4081.0
+    },
+    {
+        "address": "10.243.66.90",
+        "name": "NAVAPPSQL01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 86,
+        "risk_score": 40679.0
+    },
+    {
+        "address": "10.243.66.12",
+        "name": "DBSQLNODE4",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 87,
+        "risk_score": 42503.0
+    },
+    {
+        "address": "10.243.66.8",
+        "name": "DBSQLCLIN1",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 88,
+        "risk_score": 42503.0
+    },
+    {
+        "address": "10.243.66.34",
+        "name": "hvnsys11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1573.0
+    },
+    {
+        "address": "10.243.66.31",
+        "name": "HVNSYS8.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 82,
+        "risk_score": 39815.0
+    },
+    {
+        "address": "10.243.66.35",
+        "name": "HVNSYS12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1573.0
+    },
+    {
+        "address": "10.243.66.29",
+        "name": "HYPnsys-t01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 86,
+        "risk_score": 40344.0
+    },
+    {
+        "address": "10.243.66.33",
+        "name": "HVNSYS10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 81,
+        "risk_score": 39226.0
+    },
+    {
+        "address": "10.243.66.30",
+        "name": "HVNSYS7.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Datacenter Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 2209.0
+    },
+    {
+        "address": "10.243.66.49",
+        "name": "navRTCtest1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2610.0
+    },
+    {
+        "address": "10.243.67.32",
+        "name": "NSCALE32.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.67.117",
+        "name": "NSCALE17EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.28",
+        "name": "NSCALE28.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.67.26",
+        "name": "NSCALE26.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2327.0
+    },
+    {
+        "address": "10.243.67.34",
+        "name": "NSCALE34.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.67.27",
+        "name": "NSCALE27.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.67.124",
+        "name": "NSCALE24EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.67.90",
+        "name": "NSCALE32PROD.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.66.21",
+        "name": "dbnsysschul1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 790.0
+    },
+    {
+        "address": "10.243.67.25",
+        "name": "NSCALE25.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.67.121",
+        "name": "NSCALE21EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.67.38",
+        "name": "NSCALE38.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1332.0
+    },
+    {
+        "address": "10.243.67.113",
+        "name": "NSCALE13EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1332.0
+    },
+    {
+        "address": "10.243.67.35",
+        "name": "NSCALE35.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.66.61",
+        "name": "navRWF1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1071.0
+    },
+    {
+        "address": "10.243.67.200",
+        "name": "QMATIC1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 102,
+        "risk_score": 46568.0
+    },
+    {
+        "address": "10.243.66.63",
+        "name": "navRWFtest1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 3052.0
+    },
+    {
+        "address": "10.243.67.30",
+        "name": "NSCALE30.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.67.39",
+        "name": "NSCALE39.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.67.41",
+        "name": "NSCALE41.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.67.165",
+        "name": "ADVISFILE1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 83,
+        "risk_score": 39545.0
+    },
+    {
+        "address": "10.243.67.37",
+        "name": "NSCALE37.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.67.16",
+        "name": "NSCALEENTWKL02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1667.0
+    },
+    {
+        "address": "10.243.67.112",
+        "name": "NSCALE12EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.29",
+        "name": "NSCALE29.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2802.0
+    },
+    {
+        "address": "10.243.67.17",
+        "name": "NSCALEPRAES01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1667.0
+    },
+    {
+        "address": "10.243.66.41",
+        "name": "navRTC1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1372.0
+    },
+    {
+        "address": "10.243.67.33",
+        "name": "NSCALE33.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.67.36",
+        "name": "NSCALE36.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.66.74",
+        "name": "NAVBBSWEB1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1390.0
+    },
+    {
+        "address": "10.243.67.167",
+        "name": "KOSTA2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 16,
+        "risk_score": 4894.0
+    },
+    {
+        "address": "10.243.67.40",
+        "name": "NSCALE40.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.67.164",
+        "name": "ADVIS1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 93,
+        "risk_score": 42855.0
+    },
+    {
+        "address": "10.243.67.181",
+        "name": "WTSTEVIS1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.67.91",
+        "name": "NSCALE13BALVI.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.67.31",
+        "name": "NSCALE31.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1651.0
+    },
+    {
+        "address": "10.243.66.71",
+        "name": "navMDE1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.67.92",
+        "name": "NSCALE39TEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 3427.0
+    },
+    {
+        "address": "10.243.67.10",
+        "name": "NSCALETEST05.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 3476.0
+    },
+    {
+        "address": "10.243.67.6",
+        "name": "NSCALETEST01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2662.0
+    },
+    {
+        "address": "10.243.67.7",
+        "name": "NSCALETEST02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2662.0
+    },
+    {
+        "address": "10.243.64.201",
+        "name": "eprsrvtest.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.64.211",
+        "name": "AUTISTASRVPILOT.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.64.212",
+        "name": "EPRSRV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.64.202",
+        "name": "AutistaSRVTestPilot.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.67.8",
+        "name": "NSCALETEST03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2836.0
+    },
+    {
+        "address": "10.243.67.15",
+        "name": "NSCALEENTWKL01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1667.0
+    },
+    {
+        "address": "10.243.67.9",
+        "name": "NSCALETEST04.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2836.0
+    },
+    {
+        "address": "10.243.64.83",
+        "name": "WTSAUTISTA23.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.82",
+        "name": "WTSAUTISTA22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.81",
+        "name": "WTSAUTISTA21.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.80",
+        "name": "WTSAUTISTA20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.87",
+        "name": "WTSAUTISTA27.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.69",
+        "name": "WTSAUTISTARDPGW.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 11,
+        "risk_score": 2856.0
+    },
+    {
+        "address": "10.243.64.86",
+        "name": "WTSAUTISTA26.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.74",
+        "name": "WTSAUTISTA14.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.68",
+        "name": "WTSAUTISTA08.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.71",
+        "name": "WTSAUTISTA11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.73",
+        "name": "WTSAUTISTA13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.78",
+        "name": "WTSAUTISTA18.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.65.235",
+        "name": "MPSDB01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 335.0
+    },
+    {
+        "address": "10.243.65.241",
+        "name": "WTSMPS01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 14,
+        "risk_score": 3717.0
+    },
+    {
+        "address": "10.243.64.79",
+        "name": "WTSAUTISTA19.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.72",
+        "name": "WTSAUTISTA12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.85",
+        "name": "WTSAUTISTA25.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.84",
+        "name": "WTSAUTISTA24.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.77",
+        "name": "WTSAUTISTA17.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.64.76",
+        "name": "WTSAUTISTA16.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.65.109",
+        "name": "MESOCSG001.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 6,
+        "risk_score": 2072.0
+    },
+    {
+        "address": "10.243.65.236",
+        "name": "MPSAPP02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 844.0
+    },
+    {
+        "address": "10.243.64.90",
+        "name": "WTSAUTISTA09.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.65.237",
+        "name": "MPSAPP03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1299.0
+    },
+    {
+        "address": "10.243.64.70",
+        "name": "WTSAUTISTA10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.65.89",
+        "name": "ZENLBMESOV3",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.243.64.75",
+        "name": "WTSAUTISTA15.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.65.108",
+        "name": "MESOPROCON.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1283.0
+    },
+    {
+        "address": "10.243.66.72",
+        "name": "navSCHUL1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1406.0
+    },
+    {
+        "address": "10.243.60.234",
+        "name": "WTSJUG14.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.236",
+        "name": "WTSJUG16.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.215",
+        "name": "JUS-XTA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1587.0
+    },
+    {
+        "address": "10.243.60.239",
+        "name": "WTSJUG19.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.235",
+        "name": "WTSJUG15.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.53.174",
+        "name": "WTSSOMACOS21.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.66.157",
+        "name": "DBLISSA01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.67.42",
+        "name": "NSCALE42.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.104",
+        "name": "NSCALE4EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.44",
+        "name": "NSCALE44.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.65.102",
+        "name": "WTSMESO1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1671.0
+    },
+    {
+        "address": "10.243.67.43",
+        "name": "NSCALE43.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.78.210",
+        "name": "PSRV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1118.0
+    },
+    {
+        "address": "10.243.64.93",
+        "name": "zenlbautista",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 11,
+        "risk_score": 2899.0
+    },
+    {
+        "address": "10.243.78.213",
+        "name": "PSRV-TPTRACK.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1946.0
+    },
+    {
+        "address": "10.243.73.5",
+        "name": "DBSQL4",
+        "operating_system": "Debian Linux 10.13",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 28,
+        "risk_score": 11434.0
+    },
+    {
+        "address": "10.249.0.37",
+        "name": "WTSTERRA1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 11,
+        "risk_score": 3525.0
+    },
+    {
+        "address": "10.243.66.244",
+        "name": "WTSBUTLER.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.67.114",
+        "name": "NSCALE14EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.46",
+        "name": "NSCALE46.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.125.12",
+        "name": "WTSNWR0079.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 11,
+        "risk_score": 4374.0
+    },
+    {
+        "address": "10.243.125.2",
+        "name": "DBSQLNWR.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2407.0
+    },
+    {
+        "address": "10.243.125.16",
+        "name": "WTSNWR0300.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 12,
+        "risk_score": 4693.0
+    },
+    {
+        "address": "10.243.125.20",
+        "name": "WTSNWR1074.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 6243.0
+    },
+    {
+        "address": "10.243.67.123",
+        "name": "NSCALE23EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.45",
+        "name": "NSCALE45.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1332.0
+    },
+    {
+        "address": "10.243.125.19",
+        "name": "WTSNWR0147.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 11,
+        "risk_score": 4374.0
+    },
+    {
+        "address": "10.243.125.17",
+        "name": "WTSNWR0021.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 11,
+        "risk_score": 4374.0
+    },
+    {
+        "address": "10.243.125.23",
+        "name": "WTSNWR0005.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 12,
+        "risk_score": 4693.0
+    },
+    {
+        "address": "10.243.125.21",
+        "name": "WTSNWR0151.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 6243.0
+    },
+    {
+        "address": "10.243.125.27",
+        "name": "WTSNWR0036.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 6243.0
+    },
+    {
+        "address": "10.243.125.25",
+        "name": "WTSNWR2042.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 10,
+        "risk_score": 3919.0
+    },
+    {
+        "address": "10.243.125.11",
+        "name": "WTSNWR1712.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 11,
+        "risk_score": 4374.0
+    },
+    {
+        "address": "10.243.125.13",
+        "name": "WTSNWR0004.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 16,
+        "risk_score": 5936.0
+    },
+    {
+        "address": "10.243.64.123",
+        "name": "ITD01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.60.221",
+        "name": "JUGUPDATES02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.53.165",
+        "name": "SOMACOSTEST20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 774.0
+    },
+    {
+        "address": "10.243.67.14",
+        "name": "NSCALE-ENTWICKL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 3440.0
+    },
+    {
+        "address": "10.243.73.122",
+        "name": "nscale16.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1787.0
+    },
+    {
+        "address": "10.243.67.20",
+        "name": "nscale20.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.66.167",
+        "name": "WTSLAEMMKOM21.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.66.133",
+        "name": "WTSLAEMMKOM23.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.67.49",
+        "name": "NSCALE48.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.67.47",
+        "name": "NSCALE47.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.66.132",
+        "name": "WTSLAEMMKOM22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 669.0
+    },
+    {
+        "address": "10.243.67.48",
+        "name": "NSCALE47EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.67.5",
+        "name": "NSCALE5EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.125.28",
+        "name": "wtsnwr0104W22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1124.0
+    },
+    {
+        "address": "10.243.65.238",
+        "name": "MPSAPP04.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1299.0
+    },
+    {
+        "address": "10.243.60.73",
+        "name": "voteman03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 13,
+        "risk_score": 3215.0
+    },
+    {
+        "address": "10.243.73.118",
+        "name": "NSCALE13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.50",
+        "name": "NSCALE49.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.60.83",
+        "name": "votemantest02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 93,
+        "risk_score": 42468.0
+    },
+    {
+        "address": "10.243.67.51",
+        "name": "NSCALE50.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.243.73.220",
+        "name": "GIS-RIWA-TEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2849.0
+    },
+    {
+        "address": "10.243.67.53",
+        "name": "NSCALE52.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.52",
+        "name": "NSCALE51.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.67.54",
+        "name": "NSCALE53.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2008.0
+    },
+    {
+        "address": "10.243.66.88",
+        "name": "navmig8.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.66.86",
+        "name": "navmig6.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.66.82",
+        "name": "navmig2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1747.0
+    },
+    {
+        "address": "10.243.66.83",
+        "name": "navmig3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.66.81",
+        "name": "navmig1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.66.87",
+        "name": "navmig7.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.66.85",
+        "name": "navmig5.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.73.177",
+        "name": "wtsnavkisa.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.67.55",
+        "name": "NSCALE54.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2483.0
+    },
+    {
+        "address": "10.33.230.252",
+        "name": null,
+        "operating_system": "Debian Linux 6.0",
+        "malware": 0,
+        "exploits": 2,
+        "vulnerabilities": 31,
+        "risk_score": 9748.0
+    },
+    {
+        "address": "10.243.78.10",
+        "name": "JumpSrv01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 87,
+        "risk_score": 41052.0
+    },
+    {
+        "address": "10.243.78.11",
+        "name": "JumpSrv02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 319.0
+    },
+    {
+        "address": "10.243.67.57",
+        "name": "NSCALE56.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2657.0
+    },
+    {
+        "address": "10.243.67.56",
+        "name": "NSCALE55.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.61.24",
+        "name": "capsqlnode4",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 103,
+        "risk_score": 50219.0
+    },
+    {
+        "address": "10.243.61.31",
+        "name": "dbsqlnode1",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.61.12",
+        "name": "dbsqlnode2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.61.27",
+        "name": "dbsql9.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 88,
+        "risk_score": 42524.0
+    },
+    {
+        "address": "10.243.61.60",
+        "name": "MONSQL.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 995.0
+    },
+    {
+        "address": "10.243.61.28",
+        "name": "DBGIS.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 790.0
+    },
+    {
+        "address": "10.243.65.103",
+        "name": "WTSMESO2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1671.0
+    },
+    {
+        "address": "10.243.125.29",
+        "name": "wtsnwr0201W22",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 2340.0
+    },
+    {
+        "address": "10.249.0.200",
+        "name": "PSOPAPP.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1892.0
+    },
+    {
+        "address": "10.249.0.203",
+        "name": "PSOPWEBTEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2066.0
+    },
+    {
+        "address": "10.249.0.201",
+        "name": "PSOPWEB.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2066.0
+    },
+    {
+        "address": "10.249.0.202",
+        "name": "PSOPAPPTEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1892.0
+    },
+    {
+        "address": "10.243.73.109",
+        "name": "NSCALE19.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.78.202",
+        "name": "TSKWINNTKDO01.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 2,
+        "risk_score": 622.0
+    },
+    {
+        "address": "10.243.66.39",
+        "name": "NSYSBI3",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 96,
+        "risk_score": 43744.0
+    },
+    {
+        "address": "10.249.1.38",
+        "name": "UWMfdkdo.ads.kdo.de",
+        "operating_system": "FreeBSD 12.0-RELEASE",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 616.0
+    },
+    {
+        "address": "10.249.1.39",
+        "name": "UWMfdcap.ads.kdo.de",
+        "operating_system": "FreeBSD",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 884.0
+    },
+    {
+        "address": "10.249.1.36",
+        "name": "UWM-SRV01.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 509.0
+    },
+    {
+        "address": "10.249.1.40",
+        "name": "UWM-Mon01.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 509.0
+    },
+    {
+        "address": "10.249.1.37",
+        "name": "UWM-Srv02.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 509.0
+    },
+    {
+        "address": "10.249.1.41",
+        "name": "UWM-SrvTest01.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 509.0
+    },
+    {
+        "address": "10.243.67.58",
+        "name": "NSCALE57.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 9,
+        "risk_score": 2182.0
+    },
+    {
+        "address": "10.243.67.228",
+        "name": "SMARTDOCUMENTS.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 9,
+        "risk_score": 2204.0
+    },
+    {
+        "address": "10.243.65.201",
+        "name": "WTSPROSOZ1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2012 R2 Standard Edition",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 24,
+        "risk_score": 8777.0
+    },
+    {
+        "address": "192.168.1.164",
+        "name": "AZDMZEDGE01",
+        "operating_system": "Linux OPENWRT KAMIKAZE 8.09 (LINUX 2.6.25.20) 8.09",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 174.0
+    },
+    {
+        "address": "10.243.66.19",
+        "name": "DBnsys-t01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1453.0
+    },
+    {
+        "address": "10.243.66.7",
+        "name": "WEBnsysDEV01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1118.0
+    },
+    {
+        "address": "10.243.66.20",
+        "name": "hypnsys01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1118.0
+    },
+    {
+        "address": "10.243.66.58",
+        "name": "navwebtest2.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 88,
+        "risk_score": 41020.0
+    },
+    {
+        "address": "10.243.66.64",
+        "name": "infomarwftest-garbsen.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 88,
+        "risk_score": 41020.0
+    },
+    {
+        "address": "10.33.228.227",
+        "name": "WTSKDO1.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 17,
+        "risk_score": 5443.0
+    },
+    {
+        "address": "10.33.228.245",
+        "name": "WTSKDO4.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 924.0
+    },
+    {
+        "address": "10.33.228.231",
+        "name": "WTSKDO2.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 4602.0
+    },
+    {
+        "address": "10.33.230.138",
+        "name": "WTSUPD.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 29,
+        "risk_score": 10741.0
+    },
+    {
+        "address": "10.243.79.37",
+        "name": "AVVISOWEB.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 13,
+        "risk_score": 3744.0
+    },
+    {
+        "address": "10.249.2.4",
+        "name": "EXC-0099-Node1.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 91,
+        "risk_score": 43507.0
+    },
+    {
+        "address": "10.249.2.5",
+        "name": "EXC-0099-Node2.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 91,
+        "risk_score": 43775.0
+    },
+    {
+        "address": "10.243.66.53",
+        "name": "WEBnsys03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 87,
+        "risk_score": 40545.0
+    },
+    {
+        "address": "10.243.66.54",
+        "name": "WEBnsys02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 89,
+        "risk_score": 40545.0
+    },
+    {
+        "address": "10.243.66.62",
+        "name": "WEBnsysRWF02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 1292.0
+    },
+    {
+        "address": "10.243.125.7",
+        "name": "wtsnwr0009W22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 2021.0
+    },
+    {
+        "address": "10.243.125.9",
+        "name": "wtsnwr0005W22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 2021.0
+    },
+    {
+        "address": "10.243.125.8",
+        "name": "wtsnwr0008W22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 1124.0
+    },
+    {
+        "address": "10.243.125.10",
+        "name": "wtsnwr0004W22.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 2021.0
+    },
+    {
+        "address": "10.243.73.119",
+        "name": "WTSNSCALERPA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2557.0
+    },
+    {
+        "address": "10.249.0.36",
+        "name": "TERRA1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 16,
+        "risk_score": 4491.0
+    },
+    {
+        "address": "10.243.73.40",
+        "name": "WTSLOGA01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1419.0
+    },
+    {
+        "address": "10.243.67.59",
+        "name": "NSCALE56old.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.67.60",
+        "name": "NSCALE58.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.73.21",
+        "name": "WTSLOGA04.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.15",
+        "name": "WTSLOGA02.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.16",
+        "name": "WTSLOGA03.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.22",
+        "name": "WTSLOGA05.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.28",
+        "name": "WTSLOGA06.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.65.200",
+        "name": "WTSPROSOZ.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 17,
+        "risk_score": 7174.0
+    },
+    {
+        "address": "10.243.60.238",
+        "name": "WTSJUG18",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.60.233",
+        "name": "WTSJUG13",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 0,
+        "risk_score": 0.0
+    },
+    {
+        "address": "10.243.73.8",
+        "name": null,
+        "operating_system": "Debian Linux 7.0",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2229.0
+    },
+    {
+        "address": "10.243.73.35",
+        "name": "WTSLOGA08.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.43",
+        "name": "WTSLOGA12.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 1,
+        "risk_score": 455.0
+    },
+    {
+        "address": "10.243.73.41",
+        "name": "WTSLOGA10.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.34",
+        "name": "WTSLOGA07.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.36",
+        "name": "WTSLOGA09.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.54",
+        "name": "WTSLOGA13.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 3,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.73.42",
+        "name": "WTSLOGA11.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 4,
+        "risk_score": 964.0
+    },
+    {
+        "address": "10.243.66.84",
+        "name": "navmig4.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2082.0
+    },
+    {
+        "address": "10.243.53.235",
+        "name": "WTSOWI15.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 7,
+        "risk_score": 3125.0
+    },
+    {
+        "address": "10.243.73.121",
+        "name": "NSCALE15.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1727.0
+    },
+    {
+        "address": "10.243.60.82",
+        "name": "VOTEMANLASTTEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 67,
+        "risk_score": 26773.0
+    },
+    {
+        "address": "10.243.66.76",
+        "name": "WEBNSYSBGT01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 15,
+        "risk_score": 4011.0
+    },
+    {
+        "address": "10.243.67.11",
+        "name": "NSCALE16EGOV",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.65.112",
+        "name": "mesvwsvpc0.kdo.de",
+        "operating_system": "CentOS Linux 7.9.2009",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 34,
+        "risk_score": 15467.0
+    },
+    {
+        "address": "10.243.60.123",
+        "name": "WEBDTA3.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 84,
+        "risk_score": 40081.0
+    },
+    {
+        "address": "10.243.73.124",
+        "name": "NSCALE18.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1727.0
+    },
+    {
+        "address": "10.243.73.120",
+        "name": "NSCALE14.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1727.0
+    },
+    {
+        "address": "10.243.73.123",
+        "name": "NSCALE17.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1727.0
+    },
+    {
+        "address": "10.243.67.13",
+        "name": "NSCALETESTWEB.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2075.0
+    },
+    {
+        "address": "10.243.67.22",
+        "name": "NSCALE22old.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1727.0
+    },
+    {
+        "address": "10.243.67.24",
+        "name": "NSCALE24-old.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 1727.0
+    },
+    {
+        "address": "10.249.2.11",
+        "name": "EUFAUTOMAT-KDO.winntkdo.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 104,
+        "risk_score": 48919.0
+    },
+    {
+        "address": "10.243.64.210",
+        "name": "REMOTESCANLIC.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1118.0
+    },
+    {
+        "address": "10.243.67.23",
+        "name": "NSCALE23OLD.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.60.124",
+        "name": "WEBDTA4.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1466.0
+    },
+    {
+        "address": "10.243.73.217",
+        "name": "WTSGISLKA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 6,
+        "risk_score": 1118.0
+    },
+    {
+        "address": "10.243.61.23",
+        "name": "capsqlnode3",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 103,
+        "risk_score": 50219.0
+    },
+    {
+        "address": "10.249.4.10",
+        "name": "WEBDIWA1",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 87,
+        "risk_score": 41395.0
+    },
+    {
+        "address": "10.243.65.234",
+        "name": "MPSAPP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2510.0
+    },
+    {
+        "address": "10.243.65.240",
+        "name": "MPSAPP06.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 125,
+        "risk_score": 57687.0
+    },
+    {
+        "address": "10.243.60.250",
+        "name": "ZENLBJUG",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2899.0
+    },
+    {
+        "address": "10.243.67.61",
+        "name": "NSCALE56TEST.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.67.62",
+        "name": "NSCALE8EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.67.18",
+        "name": "NSCALE54EGOV.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 10,
+        "risk_score": 2684.0
+    },
+    {
+        "address": "10.243.73.10",
+        "name": "LOGADMVPW1.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 5,
+        "risk_score": 1633.0
+    },
+    {
+        "address": "10.243.60.224",
+        "name": "JUGTEST01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 105,
+        "risk_score": 49969.0
+    },
+    {
+        "address": "10.243.55.135",
+        "name": "WIYAPP01.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 127,
+        "risk_score": 59737.0
+    },
+    {
+        "address": "10.243.66.242",
+        "name": "butler21farm.anwendung1.ads.kdo.de",
+        "operating_system": "Debian Linux buster/sid",
+        "malware": 0,
+        "exploits": 1,
+        "vulnerabilities": 15,
+        "risk_score": 3887.0
+    },
+    {
+        "address": "10.249.0.204",
+        "name": "PSOPAPPKA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2075.0
+    },
+    {
+        "address": "10.249.0.206",
+        "name": "PSOPWTSKA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2075.0
+    },
+    {
+        "address": "10.249.0.205",
+        "name": "PSOPWEBKA.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 8,
+        "risk_score": 2075.0
+    },
+    {
+        "address": "10.243.67.19",
+        "name": "NSCALEEGOVENTWI.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2022 21H2",
+        "malware": 0,
+        "exploits": 0,
+        "vulnerabilities": 11,
+        "risk_score": 3019.0
+    },
+    {
+        "address": "10.243.65.239",
+        "name": "MPSAPP05.anwendung1.ads.kdo.de",
+        "operating_system": "Microsoft Windows Server 2019 Standard Edition 1809",
+        "malware": 0,
+        "exploits": 3,
+        "vulnerabilities": 23,
+        "risk_score": 5245.0
+    }
+]

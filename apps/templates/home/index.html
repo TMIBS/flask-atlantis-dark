@@ -3,7 +3,10 @@
 {% block title %} Dashboard {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
-{% block stylesheets %}{% endblock stylesheets %}
+{% block stylesheets %}
+	<!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+{% endblock stylesheets %}
 
 {% block content %}
 			
@@ -69,6 +72,29 @@
 					</div>
 				</div>
 			</div>
+			<div class="row mt--2">
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-header">
+							<h4 class="card-title">Assets by Risk and Vulnerabilities</h4>
+						</div>
+						<div class="card-body">
+							<canvas id="lineChartRiskVulnerarbilites" style="width: 50%; height: 50%"></canvas> <!-- Canvas element for the graph -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+						<div class="card">
+							<div class="card-header">
+								<h4 class="card-title">Vulnerabilities by Risk and Instances</h4>
+							</div>
+							<div class="card-body">
+								<canvas id="lineChartRiskInstances" style="width: 50%; height: 50%"></canvas> <!-- Canvas element for the graph -->
+							</div>
+						</div>
+					</div>
+				</div>
+			
 			<div class="row">
 				<div class="col-md-8">
 					<div class="card">
@@ -527,11 +553,21 @@
 <!-- Specific Page JS goes HERE  -->
 {% block javascripts %}
 
-	<!-- Atlantis DEMO methods, don't include it in your project! -->
-	<script src="/static/assets/js/setting-demo.js"></script>
-	<script src="/static/assets/js/demo.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/assets/js/graphicsNexpose.js"></script>
+<canvas id="myChart" width="200" height="200"></canvas>
+<script>
+		lineChartRiskVulnerarbilites = document.getElementById('lineChartRiskVulnerarbilites').getContext('2d'),
+		lineChartRiskInstances = document.getElementById('lineChartRiskInstances').getContext('2d'),
+		document.addEventListener('DOMContentLoaded', (event) => {
+			// Fetch data and display it
+			getGraphDataRiskxVulnerabilities();
+			getGraphDataRiskxInstances();
+		});
 
-	<script>
 		Circles.create({
 			id:'circles-1',
 			radius:45,
@@ -625,5 +661,7 @@
 			fillColor: 'rgba(255, 165, 52, .14)'
 		});
 	</script>
+
+	
 
 {% endblock javascripts %}

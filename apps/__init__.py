@@ -23,7 +23,6 @@ def register_blueprints(app):
         module = import_module('apps.{}.routes'.format(module_name))
         app.register_blueprint(module.blueprint)
 
-
 def configure_database(app):
 
     @app.before_first_request
@@ -36,9 +35,11 @@ def configure_database(app):
 
 
 def create_app(config):
-    app = Flask(__name__)
+    app = Flask(__name__, template_folder='C:\\Users\\tobias.meyer\\Documents\\GitHub\\flask-atlantis-dark\\apps\\templates')
     app.config.from_object(config)
     register_extensions(app)
     register_blueprints(app)
     configure_database(app)
     return app
+
+

@@ -1,0 +1,613 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Active Directory {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+    <!-- Include DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+{% endblock stylesheets %}
+
+{% block content %}
+<div class="content">
+    <div class="page-inner">
+        <div class="page-header">
+            <h4 class="page-title">Nexpose</h4>
+        </div>   
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Assets by Risk and Vulnerabilities</h4>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="lineChartRiskVulnerarbilites"></canvas> <!-- Canvas element for the graph -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Assets</h4>
+                    </div>
+                    <div class="card-body">
+                        <a>
+                            <i class="fas fa-info-circle" "style=color: #005ea8"> Further information by clicking IP address</i><br></br>
+                        </a>
+                        <div class="table-responsive">
+                            <table id="asset-table" class="display table table-striped table-hover" >
+                                <thead>
+                                    <tr>
+                                        <th>Address</th>
+                                        <th>Name</th>
+                                        <th>OS</th>
+                                        <th>Malware</th>
+                                        <th>Exploits</th>
+                                        <th>Vulnerabilities</th>
+                                        <th>Risk</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="asset-tbody">
+                                    <!-- Content will be inserted here by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">  <!-- New row for Vulnerabilities -->
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Vulnerabilities by Risk and Instances</h4>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="lineChartRiskInstances"></canvas> <!-- Canvas element for the graph -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Vulnerabilities</h4>
+                    </div>
+                    <div class="card-body">
+                        <a style= color: #005ea8>
+                            <i class="fas fa-info-circle" "style=color: #005ea8"> Further information by clicking on vulnerability</i><br></br>
+                        </a>
+                        <div class="table-responsive">
+                            <table id="vulnerability-table" class="display table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Malware</th>
+                                        <th>Exploits</th>
+                                        <th>CVSS</th>
+                                        <th>CVSSv3</th>
+                                        <th>Risk</th>
+                                        <th>Severity</th>
+                                        <th>Instances</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="vulnerability-tbody">
+                                    <!-- Content will be inserted here by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="assetModal" tabindex="-1" aria-labelledby="assetModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="assetModalLabel" style="color:#fff">Asset Details</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:#fff">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="assetModalBody">
+                        <!-- Asset details will be inserted here by JavaScript -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="vulnerabilityModal" tabindex="-1" aria-labelledby="vulnerabilityModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xxl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="vulnerabilityModalLabel" style="color:#fff">Vulnerability Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="vulnerabilityModalBody">
+                        <!-- Vulnerability details will be inserted here by JavaScript -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+
+{% block javascripts %}
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/static/assets/js/graphicsNexpose.js"></script>
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+    lineChartRiskVulnerarbilites = document.getElementById('lineChartRiskVulnerarbilites').getContext('2d'),
+    lineChartRiskInstances = document.getElementById('lineChartRiskInstances').getContext('2d'),
+    document.addEventListener('DOMContentLoaded', (event) => {
+        // Fetch data and display it
+        getGraphDataRiskxVulnerabilities();
+        getGraphDataRiskxInstances();
+        fetchAssetsDataAndDisplay();
+        fetchVulnerabilitiesDataAndDisplay();
+    });
+
+    function fetchAssetsDataAndDisplay() {
+        fetch('/processassetsjson')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Use the data to populate the table
+                displayData(data);
+
+                // Now that data is populated, we initialize DataTables
+                // This must be done after the data is loaded into the table
+                initializeAssetsDataTables();
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+    }
+
+    function displayData(dataArray) {
+        const tableBody = document.getElementById('asset-tbody');
+
+        dataArray.forEach(data => {
+            const newRow = tableBody.insertRow();
+            newRow.innerHTML = `
+                <td><a href="#" data-toggle="modal" data-target="#assetModal" onclick="showAssetModal('${data.address}')">${data.address}</a></td>
+                <td>${data.name}</td>
+                <td>${data.operating_system}</td>
+                <td>${data.malware}</td>
+                <td>${data.exploits}</td>
+                <td>${data.vulnerabilities}</td>
+                <td>${data.risk_score}</td>
+            `;
+        });
+    }
+
+    // Here the script for the Vulnerabilities
+
+    
+
+    function fetchVulnerabilitiesDataAndDisplay() {
+        fetch('/processvulnerabilitiesjson')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                displayVulnerabilityData(data);
+                initializeVulnerabilitiesDataTables()
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+    }
+
+    function displayVulnerabilityData(dataArray) {
+        const tableBody = document.getElementById('vulnerability-tbody');
+
+        dataArray.forEach(data => {
+            const newRow = tableBody.insertRow();
+            newRow.innerHTML = `
+                <td><a href="#" data-toggle="modal" data-target="#vulnerabilityModal" onclick="showVulnerabilityDetails('${data.Title}')">${data.Title}</a></td>
+                <td>${data.Malware}</td>
+                <td>${data.Exploits}</td>
+                <td>${data.CVSS}</td>
+                <td>${data.CVSSv3}</td>
+                <td>${data.Risk}</td>
+                <td>${data.Severity}</td>
+                <td>${data.Instances}</td>
+            `;
+        });
+    }
+    
+    function showAssetModal(address) {
+        fetch(`/processdetaildatajson`)
+            .then(response => response.json())
+            .then(data => {
+                const assetData = data.find(asset => asset["IP-Address"] === address);
+                if(assetData) {
+                    let htmlContent = `
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">Information</div>
+                            </div>
+                            <div class="card-body" style="font-size: 1.3em;">
+                                IP-Address: ${assetData["IP-Address"]}<br>
+                                OS: ${assetData["OS"]}<br>
+                                Raw Risk Score: ${assetData["Raw Risk Score"]}<br>
+                                Context Driven Risk Score: ${assetData["Context Driven Risk Score"]}<br>
+                                Belongs to Group: ${assetData["Tags"]}
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">Vulnerabilities</div>
+                            </div>
+                            <div class="card-body">
+                                <a>
+                                    <i class="fas fa-info-circle style="color: #005ea8"> Further information by clicking on vulnerability</i><br></br>
+                                </a>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered nopaging" aria-label="Vulnerabilities list">
+                                        <thead>
+                                        </thead>
+                                        <tbody>`;
+    
+                    assetData["Vulnerabilities"].forEach(vulnerability => {
+                        htmlContent += `<tr><td><a href="#" data-toggle="modal" data-target="#vulnerabilityModal" onclick="showVulnerabilityDetails('${vulnerability}')">${vulnerability}</a></td></tr>`;
+                    });
+                    htmlContent += `</tbody></table></div></div></div>`;
+                    document.getElementById('assetModalBody').innerHTML = htmlContent;
+                } else {
+                    document.getElementById('assetModalBody').innerText = 'Asset not found';
+                }
+            });
+    }
+
+    function showVulnerabilityDetail(vulnerabilityTitle) {
+        fetch('/processvulnerabilitiesjson')
+            .then(response => response.json())
+            .then(data => {
+                const vulnerabilityData = data.find(vuln => vuln.Title === vulnerabilityTitle);
+                if(vulnerabilityData) {
+                    let vulnDetails = `
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">${vulnerabilityData.Title}</div>
+                            </div>
+                            <div class="card-body" style="font-size: 1.4em;">
+                                Malware: ${vulnerabilityData.Malware}<br>
+                                Exploits: ${vulnerabilityData.Exploits}<br>
+                                CVSS: ${vulnerabilityData.CVSS}<br>
+                                CVSSv3: ${vulnerabilityData.CVSSv3}<br>
+                                Risk: ${vulnerabilityData.Risk}<br>
+                                Published On: ${vulnerabilityData.PublishedOn}<br>
+                                Modified On: ${vulnerabilityData.ModifiedOn}<br>
+                                Severity: ${vulnerabilityData.Severity}<br>
+                                Instances: ${vulnerabilityData.Instances}
+                            </div>
+                        </div>
+                    `;
+                    document.getElementById('vulnerabilityModalBody').innerHTML = vulnDetails;
+                    //$('#vulnerabilityModal').modal('show');
+                } else {
+                    document.getElementById('vulnerabilityModalBody').innerHTML = 'Vulnerability not found';
+                    //$('#vulnerabilityModal').modal('show');
+                }
+            });
+    }
+
+    function showVulnerabilityDetails(vulnerabilityTitle) {
+        fetch('/processvulnerabilitiesdetailsdatajson')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const vulnerabilityData = data.find(vuln => vuln.Title === vulnerabilityTitle);
+    
+                if (vulnerabilityData) {
+                    console.log('Vulnerability Data:', vulnerabilityData);
+    
+                    let vulnDetails = `
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">${vulnerabilityData.Title}</div>
+                            </div>
+                            <div class="card-body" style="font-size: 1.4em;">
+                                ID: ${vulnerabilityData.ID}<br>
+                                Severity: ${vulnerabilityData.Severity}<br>
+                                Risk Score: ${vulnerabilityData['Risk Score']}<br>
+                                CVSSv2 Score: ${vulnerabilityData['CVSSv2 Score']}<br>
+                                CVSSv3 Score: ${vulnerabilityData['CVSSv3 Score']}<br>
+                                CVSSv2 Link: ${vulnerabilityData['CVSSv2 Link']}<br>
+                                CVSSv3 Link: ${vulnerabilityData['CVSSv3 Link']}<br>
+                                Published: ${vulnerabilityData.Published}<br>
+                                Modified: ${vulnerabilityData.Modified}<br>
+                                Added: ${vulnerabilityData.Added}<br>
+                                Categories: ${vulnerabilityData.Categories}<br>
+                                CVE: ${vulnerabilityData.CVES}<br>
+                            </div>
+                        </div>
+                    `;
+    
+                    // Parse 'Affected Assets' into an array if it's a string
+                    let affectedAssetsArray = vulnerabilityData['Affected Assets'];
+                    if (typeof affectedAssetsArray === 'string') {
+                        affectedAssetsArray = affectedAssetsArray.split(',').map(item => parseInt(item.trim()));
+                    }
+    
+                    if (Array.isArray(affectedAssetsArray)) {
+                        fetch('/processassetsjson')
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('Error fetching asset data');
+                                }
+                                return response.json();
+                            })
+                            .then(assetData => {
+                                console.log('All Asset Data:', assetData);  // Debugging line
+
+                                // Here, we filter the full asset data to get only those assets that match the affected IDs.
+                                let affectedAssetsDetails = assetData.filter(asset => {
+                                    return affectedAssetsArray.includes(asset.id);  // Ensure this comparison is correct
+                                });
+                
+                                console.log('Filtered Assets:', affectedAssetsDetails);  // Debugging line
+                
+                                if (affectedAssetsDetails.length === 0) {
+                                    console.log('No matching assets found. Check the IDs in the affected assets array and the asset data.');  // Debugging line
+                                }
+                                // Build the table for affected assets
+                                let assetsTable = `
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4 class="card-title">Affected Assets</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <a>
+                                                <i class="fas fa-info-circle style="color: #005ea8"> Further information by clicking IP address</i><br></br>
+                                            </a>
+                                            <div class="table-responsive">
+                                                <table id="vulnerabilityDetails-table" class="display table table-striped table-hover" >
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Address</th>
+                                                            <th>Name</th>
+                                                            <th>OS</th>
+                                                            <th>Malware</th>
+                                                            <th>Exploits</th>
+                                                            <th>Vulnerabilities</th>
+                                                            <th>Risk</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                `;
+    
+                                affectedAssetsDetails.forEach(asset => {
+                                    assetsTable += `
+                                    <tr>
+                                        <td>${asset.id}</td> <!-- Changed from asset.ID -->
+                                        <td>${asset.address}</td> <!-- Make sure this is the correct property name -->
+                                        <td>${asset.name}</td> <!-- Make sure this is the correct property name -->
+                                        <td>${asset.operating_system}</td> <!-- Changed from asset.OS -->
+                                        <td>${asset.malware}</td> <!-- Make sure this is the correct property name -->
+                                        <td>${asset.exploits}</td> <!-- Make sure this is the correct property name -->
+                                        <td>${asset.vulnerabilities}</td> <!-- Make sure this is the correct property name -->
+                                        <td>${asset.risk_score}</td> <!-- Changed from asset.Risk -->
+                                    </tr>
+                                    `;
+                                });
+    
+                                assetsTable += `
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                `;        
+                                // Combine the details and the table
+                                // document.getElementById('vulnerabilityModalBody').innerHTML = vulnDetails + assetsTable;
+                                //$('#vulnerabilityModal').modal('show');
+                                getReferences(vulnerabilityData.ID)
+                                    .then(referencesCard => {
+                                        getSolutions(vulnerabilityData.ID)
+                                            .then(solutionsCard => {
+                                                getCVEDetails(vulnerabilityData.CVES)
+                                                    .then(cveDetailsCard => {
+                                                        document.getElementById('vulnerabilityModalBody').innerHTML = vulnDetails + assetsTable + referencesCard + solutionsCard + cveDetailsCard;
+                                                        initializeVulnerabilitiesDetailsDataTables()
+                                                    });
+                                            });
+                                    });
+                            })
+                            .catch(error => {
+                                console.error('Error fetching asset data:', error);
+                            });
+                    } else {
+                        console.error("'Affected Assets' is not an array or is undefined:", affectedAssetsArray);
+                    }
+                } else {
+                    console.error('No matching vulnerability found for title:', vulnerabilityTitle);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching vulnerability data:', error);
+            });
+    }
+
+    function getReferences(vulnerabilityID) {
+        return fetch(`/processvulnerabilitiesreferences`)
+            .then(response => response.json())
+            .then(data => {
+                const references = data[vulnerabilityID];
+                if (references.length > 0) {
+                    let referencesCard = `
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">References</h4>
+                            </div>
+                            <div class="card-body" style="font-size: 1.2em;">
+                                <table class="display table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Source</th>
+                                            <th>Link</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                    `;
+                    references.forEach(reference => {
+                        referencesCard += `
+                            <tr>
+                                <td>${reference.Source}</td>
+                                <td><a href="${reference.Link}" target="_blank">${reference.Link}</a></td>
+                            </tr>
+                        `;
+                    });
+                    referencesCard += `
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    `;
+                    return referencesCard;
+                } else {
+                        referencesCard += `
+                            <div>
+                                <h3>No References Available</h3>
+                            </div>
+                        `;
+                    }
+            });
+    }
+    
+    function getSolutions(vulnerabilityID) {
+        return fetch(`/processvulnerabilitiessolutions`)
+            .then(response => response.json())
+            .then(data => {
+                const solutions = data[vulnerabilityID];
+                if (solutions.length > 0) {
+                    let solutionsCard = `
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Solutions</h4>
+                            </div>
+                            <div class="card-body" style="font-size: 1.2em;">
+                    `;
+                    solutions.forEach(solution => {
+                        solutionsCard += `
+                            <div>
+                                <h3><b>${solution.Title}</b></h3>
+                                <h4>${solution.Steps}</h4>
+                            </div>
+                        `;
+                    });
+                    solutionsCard += `
+                            </div>
+                        </div>
+                    `;
+                    return solutionsCard;
+                } else {
+                    solutionsCard += `
+                        <div>
+                            <h3>No Solutions Available</h3>
+                        </div>
+                    `;
+                }
+            });
+    }
+    
+    function getCVEDetails(cveList) {
+        return fetch(`/processcvessite`)
+            .then(response => response.json())
+            .then(data => {
+                let cveDetailsCard = `
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Details from NVD and CVE</h4>
+                        </div>
+                        <div class="card-body" style="font-size: 1.2em;">
+                `;
+                cveList.split(',').forEach(cveID => {
+                    const cveDetails = data.find(cve => cve.CVE_ID === cveID.trim());
+                    if (cveDetails) {
+                        cveDetailsCard += `
+                            <div>
+                                <h3>${cveDetails.CVE_ID}</h3>
+                                <h3>Description: ${cveDetails.description}</h3>
+                                <h3>${cveDetails.CWE_ID}: ${cveDetails.CWE_NAME}</h3>
+                                <div class="card-header">
+                                    <h4 class="card-title">References:</h4>
+                                </div>
+                                <table class="display table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                        `;
+                        cveDetails.references.forEach(reference => {
+                            cveDetailsCard += `<tr><td><a href="${reference}" target="_blank">${reference}</a></td></tr>`;
+                        });
+                        cveDetailsCard += `
+                                    </tbody>
+                                </table>
+                            </div>
+                        `;
+                    } else {
+                        cveDetailsCard += `
+                            <div>
+                                <h3>No details due to missing CVE-ID for vulnerability</h3>
+                            </div>
+                        `;
+                    }
+                });
+                cveDetailsCard += `
+                        </div>
+                    </div>
+                `;
+                return cveDetailsCard;
+            });
+    }
+
+    function initializeAssetsDataTables() {
+    // Table Format
+        $('#asset-table').DataTable();
+    }
+
+    function initializeVulnerabilitiesDataTables() {
+    // Table Format
+        $('#vulnerability-table').DataTable();
+        }
+    
+    function initializeVulnerabilitiesDetailsDataTables() {
+    // Table Format
+        $('#vulnerabilityDetails-table').DataTable({
+            "pageLength": 5,  // Change Default to 5
+            "lengthMenu": [ [5, 10, 25, 50, -1], [5, 10, 25, 50, "All"] ]
+        });
+    }
+    
+    
+    
+</script>
+{% endblock javascripts %}
+

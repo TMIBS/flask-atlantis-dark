@@ -1,0 +1,4024 @@
+{
+    "apache-tomcat-cve-2022-29885": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-29885"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5265"
+        }
+    ],
+    "jre-vuln-cve-2023-21939": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21939"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "cifs-insecure-acct-lockout-limit": [],
+    "debian-cve-2022-2601": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-2601"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3190-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5280-1"
+        }
+    ],
+    "apache-httpd-cve-2020-35452": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-35452"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4937"
+        }
+    ],
+    "apache-tomcat-cve-2021-30640": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-30640"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4952"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4986"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        }
+    ],
+    "php-cve-2022-31625": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-31625"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=81720"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5179"
+        }
+    ],
+    "php-cve-2021-21705": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21705"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=81122"
+        }
+    ],
+    "jre-vuln-cve-2023-22081": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22081"
+        }
+    ],
+    "msft-cve-2017-5754": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493446"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493448"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493464"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493467"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493472"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4074590"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4074591"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-5754"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4056888"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4057113"
+        }
+    ],
+    "http-apache-default-install-page": [
+        {
+            "Source": "osvdb",
+            "Link": "http://www.osvdb.org/2117"
+        }
+    ],
+    "debian-cve-2022-3775": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3190-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5280-1"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-3775"
+        }
+    ],
+    "php-cve-2021-21703": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21703"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4992"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4993"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=81026"
+        }
+    ],
+    "microsoft-office-cve-2021-40442": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-40442"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/5002053"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/5002056"
+        }
+    ],
+    "msft-cve-2020-16930": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-16930"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484417"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484435"
+        }
+    ],
+    "microsoft-edge-cve-2023-4761": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4761"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4761"
+        }
+    ],
+    "microsoft-office-cve-2021-41368": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-41368"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/5002032"
+        }
+    ],
+    "apache-httpd-cve-2022-22721": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-22721"
+        }
+    ],
+    "microsoft-edge-cve-2023-0696": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0696"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-0696"
+        }
+    ],
+    "cifs-smb-signing-not-required": [
+        {
+            "Source": "url",
+            "Link": "http://blogs.technet.com/b/josebda/archive/2010/12/01/the-basics-of-smb-signing-covering-both-smb1-and-smb2.aspx"
+        }
+    ],
+    "msft-cve-2023-35349": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031408"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031411"
+        }
+    ],
+    "php-cve-2021-21706": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21706"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=81420"
+        }
+    ],
+    "microsoft-office-cve-2021-42292": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-42292"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/5002056"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/4486670"
+        }
+    ],
+    "jre-vuln-cve-2021-2388": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2021.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-2388"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4946"
+        }
+    ],
+    "debian-cve-2023-20593": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-20593"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5459-1"
+        }
+    ],
+    "microsoft-office-cve-2021-42296": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-42296"
+        }
+    ],
+    "ghostscript-cve-2016-10220": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3838"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-10220"
+        }
+    ],
+    "php-cve-2021-21707": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21707"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5082"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=79971"
+        }
+    ],
+    "7-zip-cve-2018-10172": [
+        {
+            "Source": "url",
+            "Link": "http://www.securityfocus.com/bid/104132"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.securitytracker.com/id/1040832"
+        },
+        {
+            "Source": "url",
+            "Link": "https://landave.io/2018/05/7-zip-from-uninitialized-memory-to-remote-code-execution/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sourceforge.net/p/sevenzip/discussion/45797/thread/adc65bfa/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-10172"
+        }
+    ],
+    "http-delete-method-enabled": [
+        {
+            "Source": "owasp-2010",
+            "Link": "https://www.owasp.org/index.php/Top_10_2010-A6"
+        },
+        {
+            "Source": "owasp-2013",
+            "Link": "https://www.owasp.org/index.php/Top_10_2013-A5"
+        },
+        {
+            "Source": "owasp-2013",
+            "Link": "https://www.owasp.org/index.php/Top_10_2013-A9"
+        },
+        {
+            "Source": "xf",
+            "Link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4253"
+        }
+    ],
+    "cifs-smb-signing-disabled": [
+        {
+            "Source": "url",
+            "Link": "http://blogs.technet.com/b/josebda/archive/2010/12/01/the-basics-of-smb-signing-covering-both-smb1-and-smb2.aspx"
+        }
+    ],
+    "microsoft-edge-cve-2023-3215": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-3215"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3215"
+        }
+    ],
+    "microsoft-edge-cve-2023-5475": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5475"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5475"
+        }
+    ],
+    "notepadplusplus-cve-2023-40031": [
+        {
+            "Source": "url",
+            "Link": "https://securitylab.github.com/advisories/GHSL-2023-092_Notepad__/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-40031"
+        }
+    ],
+    "microsoft-edge-cve-2023-5474": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5474"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5474"
+        }
+    ],
+    "ssh-cve-2016-2183-sweet32": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-2183"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sweet32.info/"
+        }
+    ],
+    "keepass-cve-2023-32784": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-32784"
+        },
+        {
+            "Source": "url",
+            "Link": "https://nvd.nist.gov/vuln/detail/cve-2023-32784"
+        }
+    ],
+    "microsoft-edge-cve-2023-5477": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5477"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5477"
+        }
+    ],
+    "microsoft-edge-cve-2023-4763": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4763"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4763"
+        }
+    ],
+    "msft-cve-2017-5715": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-5715"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493446"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493448"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493464"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493467"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4493472"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4074590"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4074591"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4056888"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4057113"
+        }
+    ],
+    "microsoft-edge-cve-2023-3216": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-3216"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3216"
+        }
+    ],
+    "tls-dh-primes": [
+        {
+            "Source": "url",
+            "Link": "https://weakdh.org/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.openssl.org/docs/man1.1.0/apps/dhparam.html"
+        }
+    ],
+    "debian-cve-2023-2007": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-2007"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3508-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5480"
+        }
+    ],
+    "notepadplusplus-cve-2023-40036": [
+        {
+            "Source": "url",
+            "Link": "https://securitylab.github.com/advisories/GHSL-2023-092_Notepad__/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-40036"
+        }
+    ],
+    "ssl-cve-2016-2183-sweet32": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-2183"
+        },
+        {
+            "Source": "url",
+            "Link": "https://access.redhat.com/articles/2548661"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sweet32.info/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.openssl.org/blog/blog/2016/08/24/sweet32"
+        }
+    ],
+    "netbios-nbstat-amplification": [
+        {
+            "Source": "cert",
+            "Link": "http://www.us-cert.gov/cas/techalerts/TA14-017A.html"
+        }
+    ],
+    "debian-cve-2019-0155": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0204"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-0155"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3841"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3887"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3889"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3908"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-1990-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4564-1"
+        }
+    ],
+    "apache-tomcat-cve-2021-41079": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4986"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-41079"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        }
+    ],
+    "msft-cve-2022-37967": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5019081"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5019964"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5019966"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020000"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020003"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020005"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020009"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020010"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020013"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5020019"
+        }
+    ],
+    "ubuntu-cve-2020-17437": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-17437"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6259-1/"
+        }
+    ],
+    "ssh-rc4-ciphers": [
+        {
+            "Source": "url",
+            "Link": "http://www.openssh.com/txt/release-6.7"
+        }
+    ],
+    "msft-cve-2022-34301": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5016616"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5016627"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5016629"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-34301"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5012170"
+        }
+    ],
+    "7-zip-cve-2016-2334": [
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/90531"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-2334"
+        },
+        {
+            "Source": "url",
+            "Link": "http://blog.talosintel.com/2016/05/multiple-7-zip-vulnerabilities.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://blog.talosintelligence.com/2017/11/exploiting-cve-2016-2334.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/technetwork/topics/security/bulletinoct2016-3090566.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.securityfocus.com/bid/90531"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.securitytracker.com/id/1035876"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.talosintel.com/reports/TALOS-2016-0093/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNYIQAU3FKFBNFPK6GKYTSVRHQA7PTYT/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DTGWICT3KYYDPDXRNO5SXD32GZICGRIR/"
+        }
+    ],
+    "cifs-share-everyone-readable": [],
+    "vmsa-2023-0013-cve-2023-20867-vmware-tools": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-20867"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.vmware.com/security/advisories/VMSA-2023-0013.html"
+        }
+    ],
+    "apache-tomcat-cve-2021-43980": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-43980"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5265"
+        }
+    ],
+    "debian-cve-2019-14821": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0204"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-14821"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4531"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3309"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3517"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3978"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3979"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-4154"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-4256"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0027"
+        }
+    ],
+    "apache-tomcat-cve-2017-15706": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/103069"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-15706"
+        }
+    ],
+    "apache-httpd-cve-2022-30522": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-30522"
+        }
+    ],
+    "msft-cve-2023-36438": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031408"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031411"
+        }
+    ],
+    "jre-vuln-cve-2022-21541": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2022.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-21541"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5188"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5192"
+        }
+    ],
+    "apache-tomcat-cve-2017-5664": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1801"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1802"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-2493"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-2494"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3891"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3892"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-3080"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1809"
+        }
+    ],
+    "microsoft-msxml-4-obsolete": [
+        {
+            "Source": "url",
+            "Link": "https://www.microsoft.com/en-us/download/details.aspx?id=3988"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msdn.microsoft.com/en-us/library/jj152146(v=vs.85).aspx"
+        }
+    ],
+    "jre-vuln-cve-2022-21626": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-21626"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2022.html"
+        }
+    ],
+    "apache-tomcat-cve-2023-24998": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-24998"
+        }
+    ],
+    "msft-cve-2023-21705": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021037"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021045"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021124"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021125"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021126"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021127"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021128"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021129"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5021522"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21705"
+        }
+    ],
+    "microsoft-edge-cve-2023-36735": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36735"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36735"
+        }
+    ],
+    "windows-defender-cve-2023-24934": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-24934"
+        }
+    ],
+    "microsoft-edge-cve-2023-3217": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-3217"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3217"
+        }
+    ],
+    "msft-cve-2023-29348": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031408"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031419"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031427"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031441"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031442"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-29348"
+        }
+    ],
+    "jre-vuln-cve-2022-21628": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-21628"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2022.html"
+        }
+    ],
+    "microsoft-edge-cve-2023-5479": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5479"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5479"
+        }
+    ],
+    "microsoft-office-obsolete": [
+        {
+            "Source": "url",
+            "Link": "https://www.microsoft.com/en-ca/microsoft-365/office-365"
+        }
+    ],
+    "tlsv1_1-enabled": [
+        {
+            "Source": "url",
+            "Link": "https://www.pcisecuritystandards.org/documents/Migrating_from_SSL_Early_TLS_Information%20Supplement_v1.pdf"
+        },
+        {
+            "Source": "url",
+            "Link": "http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf"
+        }
+    ],
+    "apache-tomcat-cve-2022-34305": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-34305"
+        }
+    ],
+    "microsoft-edge-cve-2023-4900": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4900"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4900"
+        }
+    ],
+    "apache-httpd-cve-2021-26690": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4937"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-26690"
+        }
+    ],
+    "apache-tomcat-cve-2021-33037": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4952"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-33037"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        }
+    ],
+    "microsoft-edge-cve-2023-4762": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4762"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4762"
+        }
+    ],
+    "microsoft-edge-cve-2023-5476": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5476"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5476"
+        }
+    ],
+    "microsoft-edge-cve-2023-2312": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-2312"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2312"
+        }
+    ],
+    "http-trace-method-enabled": [
+        {
+            "Source": "disa_severity",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "apple",
+            "Link": "http://docs.info.apple.com/article.html?artnum=61798"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/36956"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/15222"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/19915"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/24456"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/9506"
+        },
+        {
+            "Source": "cert-vn",
+            "Link": "http://www.kb.cert.org/vuls/id/867593"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2004-2320"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2004-2763"
+        }
+    ],
+    "windows-2012-server-obsolete": [
+        {
+            "Source": "url",
+            "Link": "https://learn.microsoft.com/en-us/windows/release-health/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2012"
+        },
+        {
+            "Source": "url",
+            "Link": "https://learn.microsoft.com/en-us/lifecycle/products/windows-server-2012-r2"
+        }
+    ],
+    "jre-vuln-cve-2022-34169": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2022.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-34169"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5188"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5192"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5256"
+        }
+    ],
+    "msft-cve-2023-36420": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029378"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029379"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029503"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36420"
+        }
+    ],
+    "msft-cve-2023-36435": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36435"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031901"
+        }
+    ],
+    "google-chrome-cve-2023-0697": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0697"
+        },
+        {
+            "Source": "url",
+            "Link": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://crbug.com/1341541"
+        }
+    ],
+    "microsoft-edge-cve-2023-33145": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-33145"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-33145"
+        }
+    ],
+    "apache-tomcat-cve-2017-7674": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1801"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1802"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3974"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-3081"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-7674"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/100280"
+        }
+    ],
+    "microsoft-office-cve-2021-42293": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-42293"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/5002099"
+        }
+    ],
+    "ssl-cve-2011-3389-beast": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2011-3389"
+        },
+        {
+            "Source": "url",
+            "Link": "http://vnhacker.blogspot.co.uk/2011/09/beast.html"
+        }
+    ],
+    "7-zip-cve-2016-9296": [
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/94294"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-9296"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.securityfocus.com/bid/94294"
+        },
+        {
+            "Source": "url",
+            "Link": "https://github.com/yangke/7zip-null-pointer-dereference"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sourceforge.net/p/p7zip/bugs/185/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sourceforge.net/p/p7zip/discussion/383043/thread/648d34db/"
+        }
+    ],
+    "ssl-weak-message-authentication-code-algorithms": [
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Server_Side_TLS"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers"
+        },
+        {
+            "Source": "url",
+            "Link": "https://blog.pcisecuritystandards.org/how-the-sha-1-collision-impacts-security-of-payments"
+        }
+    ],
+    "windows-autologin-enabled": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/234562"
+        },
+        {
+            "Source": "xf",
+            "Link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4"
+        }
+    ],
+    "apache-httpd-cve-2019-17567": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-17567"
+        }
+    ],
+    "ubuntu-cve-2020-11080": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-11080"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4696"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6142-1/"
+        }
+    ],
+    "microsoft-edge-cve-2023-4863": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4863"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4863"
+        }
+    ],
+    "debian-cve-2022-40982": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-40982"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5474-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3524-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3525-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5475-1"
+        }
+    ],
+    "microsoft-edge-cve-2023-5218": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5218"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5218"
+        }
+    ],
+    "ssl-self-signed-certificate": [],
+    "jre-vuln-cve-2023-22049": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22049"
+        }
+    ],
+    "php-cve-2021-21704": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21704"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=76448"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=76449"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=76450"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=76452"
+        }
+    ],
+    "upnp-ssdp-amplification": [
+        {
+            "Source": "cert",
+            "Link": "http://www.us-cert.gov/cas/techalerts/TA14-017A.html"
+        }
+    ],
+    "msft-cve-2021-42295": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-42295"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4486726"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4504710"
+        }
+    ],
+    "msft-cve-2023-36417": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029378"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029379"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5029503"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36417"
+        }
+    ],
+    "ssl-des-ciphers": [
+        {
+            "Source": "url",
+            "Link": "http://www.nist.gov/manuscript-publication-search.cfm?pub_id=915295"
+        },
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Server_Side_TLS"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers"
+        },
+        {
+            "Source": "url",
+            "Link": "http://support.microsoft.com/kb/245030/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://tools.ietf.org/html/rfc5469"
+        }
+    ],
+    "apache-httpd-cve-2020-11985": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-11985"
+        }
+    ],
+    "php-cve-2021-21708": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-21708"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=81708"
+        }
+    ],
+    "ssh-cve-2015-4000": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2015-4000"
+        },
+        {
+            "Source": "url",
+            "Link": "https://weakdh.org/"
+        }
+    ],
+    "ubuntu-cve-2020-19726": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-19726"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6381-1/"
+        }
+    ],
+    "dns-allows-cache-snooping": [
+        {
+            "Source": "url",
+            "Link": "http://cs.unc.edu/~fabian/course_papers/cache_snooping.pdf"
+        }
+    ],
+    "microsoft-edge-cve-2023-4764": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4764"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4764"
+        }
+    ],
+    "apache-httpd-cve-2022-29404": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-29404"
+        }
+    ],
+    "generic-icmp-timestamp": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-1999-0524"
+        },
+        {
+            "Source": "osvdb",
+            "Link": "http://www.osvdb.org/95"
+        },
+        {
+            "Source": "xf",
+            "Link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/306"
+        },
+        {
+            "Source": "xf",
+            "Link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/322"
+        }
+    ],
+    "ghostscript-cve-2016-10218": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-10218"
+        },
+        {
+            "Source": "url",
+            "Link": "http://git.ghostscript.com/?p=ghostpdl.git;a=commit;h=d621292fb2c8157d9899dcd83fd04dd250e30fe4"
+        }
+    ],
+    "jre-vuln-cve-2023-22067": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22067"
+        }
+    ],
+    "microsoft-edge-cve-2023-36562": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36562"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36562"
+        }
+    ],
+    "jre-vuln-cve-2023-21967": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21967"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "debian-cve-2023-2269": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-2269"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5448"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5448-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3508-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5480"
+        }
+    ],
+    "apache-tomcat-cve-2023-28708": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-28708"
+        }
+    ],
+    "cifs-generic-0005": [
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/en-us/help/2793313/security-guidance-for-ntlmv1-and-lm-network-authentication"
+        }
+    ],
+    "apache-tomcat-cve-2017-12617": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-3113"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-3114"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2018-2939"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2018-0465"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2018-0466"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-3080"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-3081"
+        }
+    ],
+    "notepadplusplus-cve-2023-40164": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-40164"
+        },
+        {
+            "Source": "url",
+            "Link": "https://securitylab.github.com/advisories/GHSL-2023-092_Notepad__/"
+        }
+    ],
+    "ssl-static-key-ciphers": [
+        {
+            "Source": "url",
+            "Link": "http://www.nist.gov/manuscript-publication-search.cfm?pub_id=915295"
+        },
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Server_Side_TLS"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers"
+        },
+        {
+            "Source": "url",
+            "Link": "http://support.microsoft.com/kb/245030/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://tools.ietf.org/html/rfc7540/"
+        }
+    ],
+    "ghostscript-cve-2023-36664": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36664"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5446"
+        }
+    ],
+    "apache-httpd-cve-2022-23943": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-23943"
+        }
+    ],
+    "apache-httpd-cve-2022-26377": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-26377"
+        }
+    ],
+    "ssh-weak-kex-algorithms": [
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Guidelines/OpenSSH"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.rfc-editor.org/rfc/rfc8732.html#name-deprecated-algorithms"
+        }
+    ],
+    "jre-vuln-cve-2023-21937": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21937"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "microsoft-edge-cve-2023-5473": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5473"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5473"
+        }
+    ],
+    "microsoft-edge-cve-2023-5478": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-5478"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-5478"
+        }
+    ],
+    "7-zip-cve-2023-31102": [
+        {
+            "Source": "url",
+            "Link": "https://sourceforge.net/p/sevenzip/discussion/45797/thread/713c8a8269/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-31102"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.zerodayinitiative.com/advisories/ZDI-23-1165/"
+        }
+    ],
+    "ubuntu-cve-2018-12327": [
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/104517"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-12327"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2018-3853"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2018-3854"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-2077"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/4229-1/"
+        },
+        {
+            "Source": "nvd",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-12327"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/4229-2/"
+        }
+    ],
+    "apache-tomcat-cve-2017-5647": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1801"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1802"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-2493"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-2494"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-6.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-5647"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3842"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3843"
+        }
+    ],
+    "debian-cve-2018-12207": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0204"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4602"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-12207"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3916"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3936"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3941"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0026"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0028"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-1990-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4564-1"
+        }
+    ],
+    "debian-cve-2019-11135": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0204"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4602"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-3936"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0026"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0028"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-11135"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0279"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0366"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0555"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0666"
+        }
+    ],
+    "microsoft-edge-cve-2023-24935": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-24935"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-24935"
+        }
+    ],
+    "vmsa-2020-0002-cve-2020-3941-vmware_tools": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-3941"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.vmware.com/security/advisories/VMSA-2020-0002.html"
+        }
+    ],
+    "linux-icmp-redirect": [
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/6823"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/293626"
+        },
+        {
+            "Source": "xf",
+            "Link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/11306"
+        }
+    ],
+    "apache-tomcat-cve-2021-42340": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-42340"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5009"
+        }
+    ],
+    "apache-tomcat-cve-2022-42252": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-42252"
+        }
+    ],
+    "apache-tomcat-cve-2017-7675": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3974"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/100256"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-7675"
+        }
+    ],
+    "apache-tomcat-cve-2017-5651": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-5651"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/97544"
+        }
+    ],
+    "notepadplusplus-cve-2023-40166": [
+        {
+            "Source": "url",
+            "Link": "https://securitylab.github.com/advisories/GHSL-2023-092_Notepad__/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-40166"
+        }
+    ],
+    "debian-cve-2019-0154": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0204"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-0154"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-1989-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-1990-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4564-1"
+        }
+    ],
+    "apache-httpd-cve-2022-22719": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-22719"
+        }
+    ],
+    "dns-processes-recursive-queries": [
+        {
+            "Source": "url",
+            "Link": "http://www.us-cert.gov/reading_room/DNS-recursion033006.pdf"
+        }
+    ],
+    "php-cve-2022-31626": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-31626"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.php.net/bug.php?id=81719"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5179"
+        }
+    ],
+    "tlsv1_0-enabled": [
+        {
+            "Source": "url",
+            "Link": "https://www.pcisecuritystandards.org/documents/Migrating_from_SSL_Early_TLS_Information%20Supplement_v1.pdf"
+        },
+        {
+            "Source": "url",
+            "Link": "http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf"
+        }
+    ],
+    "ssh-3des-ciphers": [
+        {
+            "Source": "url",
+            "Link": "http://www.ecrypt.eu.org/ecrypt2/documents/D.SPA.20.pdf"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bettercrypto.org/static/applied-crypto-hardening.pdf"
+        }
+    ],
+    "jre-vuln-cve-2023-21968": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21968"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "google-chrome-cve-2023-0696": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0696"
+        },
+        {
+            "Source": "url",
+            "Link": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+        }
+    ],
+    "debian-cve-2019-14814": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-14814"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0174"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0328"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0339"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-1930-1"
+        }
+    ],
+    "apache-tomcat-cve-2018-11784": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4596"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/105524"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-11784"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-0130"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-0131"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-0485"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-1529"
+        }
+    ],
+    "jre-vuln-cve-2023-22045": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22045"
+        }
+    ],
+    "7-zip-cve-2017-17969": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4104"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-17969"
+        },
+        {
+            "Source": "url",
+            "Link": "https://0patch.blogspot.si/2018/02/two-interesting-micropatches-for-7-zip.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://landave.io/2018/01/7-zip-multiple-memory-corruptions-via-rar-and-zip/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://lists.debian.org/debian-lts-announce/2018/02/msg00003.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.debian.org/security/2018/dsa-4104"
+        }
+    ],
+    "ghostscript-cve-2016-7976": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3691"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/95332"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7976"
+        }
+    ],
+    "windows-hotfix-ms16-133": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7213"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7228"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7229"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7230"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7231"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7232"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7233"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7234"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7235"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7236"
+        }
+    ],
+    "ssl-3des-ciphers": [
+        {
+            "Source": "url",
+            "Link": "http://www.ecrypt.eu.org/ecrypt2/documents/D.SPA.20.pdf"
+        },
+        {
+            "Source": "url",
+            "Link": "http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.nist.gov/manuscript-publication-search.cfm?pub_id=915295"
+        },
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Server_Side_TLS"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers"
+        },
+        {
+            "Source": "url",
+            "Link": "http://support.microsoft.com/kb/245030/"
+        }
+    ],
+    "microsoft-edge-cve-2023-4901": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4901"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4901"
+        }
+    ],
+    "ubuntu-cve-2020-10737": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-10737"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/5169-1/"
+        }
+    ],
+    "msft-cve-2023-33131": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-33131"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5002382"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5002387"
+        }
+    ],
+    "chargen-amplification": [
+        {
+            "Source": "cert",
+            "Link": "http://www.us-cert.gov/cas/techalerts/TA14-017A.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tools.ietf.org/html/rfc864"
+        }
+    ],
+    "tls-server-cert-expired": [],
+    "cifs-acct-password-never-expires": [],
+    "apache-tomcat-cve-2022-45143": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-45143"
+        }
+    ],
+    "apache-tomcat-cve-2022-23181": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-23181"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5265"
+        }
+    ],
+    "jre-vuln-cve-2023-22043": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22043"
+        }
+    ],
+    "debian-cve-2019-14816": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0174"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0328"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0339"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-14816"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0204"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0374"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0375"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0653"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0661"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0664"
+        }
+    ],
+    "microsoft-office-cve-2021-42295": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-42295"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/4504710"
+        }
+    ],
+    "apache-httpd-cve-2022-28330": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-28330"
+        }
+    ],
+    "adobe-acrobat-obsolete": [],
+    "http-iis-default-install-page": [
+        {
+            "Source": "osvdb",
+            "Link": "http://www.osvdb.org/2117"
+        }
+    ],
+    "http-basic-auth-cleartext": [
+        {
+            "Source": "owasp-2013",
+            "Link": "https://www.owasp.org/index.php/Top_10_2013-A6"
+        },
+        {
+            "Source": "owasp-2010",
+            "Link": "https://www.owasp.org/index.php/Top_10_2010-A9"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tools.ietf.org/html/rfc2617"
+        }
+    ],
+    "apache-tomcat-cve-2023-41080": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-9.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-10.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-41080"
+        }
+    ],
+    "msft-cve-2015-6161": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2015-6161"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/3116180"
+        }
+    ],
+    "ghostscript-cve-2023-28879": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-28879"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5383"
+        },
+        {
+            "Source": "url",
+            "Link": "https://bugs.ghostscript.com/show_bug.cgi?id=706494"
+        }
+    ],
+    "generic-tcp-timestamp": [
+        {
+            "Source": "url",
+            "Link": "http://uptime.netcraft.com"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.forensicswiki.org/wiki/TCP_timestamps"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.ietf.org/rfc/rfc1323.txt"
+        }
+    ],
+    "jre-vuln-cve-2022-21624": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-21624"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2022.html"
+        }
+    ],
+    "microsoft-office-cve-2021-43255": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-43255"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/4504745"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/help/5002033"
+        }
+    ],
+    "microsoft-office-cve-2023-36569": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36569"
+        }
+    ],
+    "microsoft-edge-cve-2023-36559": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36559"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36559"
+        }
+    ],
+    "ubuntu-cve-2020-13988": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-13988"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6259-1/"
+        }
+    ],
+    "apache-tomcat-default-install-page": [
+        {
+            "Source": "osvdb",
+            "Link": "http://www.osvdb.org/2117"
+        }
+    ],
+    "microsoft-edge-cve-2023-3214": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-3214"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3214"
+        }
+    ],
+    "msft-cve-2023-36436": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031411"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031416"
+        }
+    ],
+    "debian-obsolete": [
+        {
+            "Source": "url",
+            "Link": "https://wiki.debian.org/LTS"
+        }
+    ],
+    "cifs-share-everyone-writeable": [],
+    "google-chrome-cve-2023-0698": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0698"
+        },
+        {
+            "Source": "url",
+            "Link": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+        }
+    ],
+    "7-zip-cve-2018-10115": [
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/104132"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-10115"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.securityfocus.com/bid/104132"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.securitytracker.com/id/1040832"
+        },
+        {
+            "Source": "url",
+            "Link": "https://landave.io/2018/05/7-zip-from-uninitialized-memory-to-remote-code-execution/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sourceforge.net/p/sevenzip/discussion/45797/thread/adc65bfa/"
+        }
+    ],
+    "tls-server-cert-to-expire": [],
+    "7-zip-cve-2023-40481": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-40481"
+        },
+        {
+            "Source": "url",
+            "Link": "https://sourceforge.net/p/sevenzip/discussion/45797/thread/713c8a8269/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.zerodayinitiative.com/advisories/ZDI-23-1164/"
+        }
+    ],
+    "debian-cve-2023-1380": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-1380"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3508-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5480"
+        }
+    ],
+    "jre-vuln-cve-2023-21938": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21938"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "ssl-only-weak-ciphers": [
+        {
+            "Source": "url",
+            "Link": "http://www.nist.gov/manuscript-publication-search.cfm?pub_id=915295"
+        },
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Server_Side_TLS"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers"
+        },
+        {
+            "Source": "url",
+            "Link": "http://support.microsoft.com/kb/245030/"
+        }
+    ],
+    "apache-httpd-cve-2022-28615": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-28615"
+        }
+    ],
+    "debian-cve-2023-3090": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-3090"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5448-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3508-1"
+        }
+    ],
+    "google-chrome-cve-2023-0701": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0701"
+        },
+        {
+            "Source": "url",
+            "Link": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://crbug.com/1405123"
+        }
+    ],
+    "msft-cve-2023-36431": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031408"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031411"
+        }
+    ],
+    "ubuntu-cve-2020-19724": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-19724"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6381-1/"
+        }
+    ],
+    "ubuntu-cve-2020-21047": [
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6322-1/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-21047"
+        }
+    ],
+    "ghostscript-cve-2016-7977": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3691"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-0013"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-0014"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/95334"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7977"
+        }
+    ],
+    "msft-cve-2017-8529": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038781"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038782"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038783"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038788"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-8529"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4036586"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038777"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038792"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4038799"
+        }
+    ],
+    "apache-tomcat-cve-2017-5650": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-5650"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/97531"
+        }
+    ],
+    "apache-httpd-cve-2014-8109": [
+        {
+            "Source": "apple",
+            "Link": "http://docs.info.apple.com/article.html?artnum=61798"
+        },
+        {
+            "Source": "disa_severity",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "iavm",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "apple",
+            "Link": "http://docs.info.apple.com/article.html?artnum=61798"
+        },
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2014-8109"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/73040"
+        }
+    ],
+    "http-openssl-cve-2014-0224": [
+        {
+            "Source": "disa_severity",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "iavm",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "iavm",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "iavm",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        }
+    ],
+    "ubuntu-cve-2020-13987": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-13987"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6259-1/"
+        }
+    ],
+    "jre-vuln-cve-2022-21540": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2022.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-21540"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5188"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5192"
+        }
+    ],
+    "ghostscript-cve-2016-10217": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-10217"
+        },
+        {
+            "Source": "url",
+            "Link": "http://git.ghostscript.com/?p=ghostpdl.git;a=commit;h=90fd0c7ca3efc1ddff64a86f4104b13b3ac969eb"
+        }
+    ],
+    "apache-httpd-cve-2022-28614": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-28614"
+        }
+    ],
+    "ssh-weak-message-authentication-code-algorithms": [
+        {
+            "Source": "url",
+            "Link": "https://tools.cisco.com/security/center/resources/next_generation_cryptography"
+        }
+    ],
+    "apache-tomcat-cve-2017-5648": [
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-7.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tomcat.apache.org/security-8.html"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1801"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1802"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2017-5648"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3842"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3843"
+        },
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/97530"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2017-1809"
+        }
+    ],
+    "ghostscript-cve-2016-10219": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-3838"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-10219"
+        }
+    ],
+    "jre-vuln-cve-2022-21619": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-21619"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2022.html"
+        }
+    ],
+    "tls-dh-prime-under-2048-bits": [
+        {
+            "Source": "url",
+            "Link": "https://weakdh.org/"
+        }
+    ],
+    "ssh-cbc-ciphers": [
+        {
+            "Source": "url",
+            "Link": "https://www.kb.cert.org/vuls/id/958563"
+        }
+    ],
+    "microsoft-edge-cve-2023-36727": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36727"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-36727"
+        }
+    ],
+    "linux-grub-missing-passwd": [],
+    "jre-vuln-cve-2023-21930": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21930"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "jre-vuln-cve-2023-21954": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-21954"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuapr2023.html"
+        }
+    ],
+    "trellix-agent-cve-2023-0977": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0977"
+        },
+        {
+            "Source": "url",
+            "Link": "https://kcm.trellix.com/corporate/index?page=content&id=SB10396"
+        },
+        {
+            "Source": "url",
+            "Link": "https://nvd.nist.gov/vuln/detail/CVE-2023-0977"
+        },
+        {
+            "Source": "mcafee",
+            "Link": "https://kc.mcafee.com/corporate/index?page=content&id=SB10396"
+        },
+        {
+            "Source": "url",
+            "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0977"
+        }
+    ],
+    "trellix-agent-cve-2023-0975": [
+        {
+            "Source": "url",
+            "Link": "https://kcm.trellix.com/corporate/index?page=content&id=SB10396"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0975"
+        },
+        {
+            "Source": "url",
+            "Link": "https://nvd.nist.gov/vuln/detail/CVE-2023-0975"
+        },
+        {
+            "Source": "mcafee",
+            "Link": "https://kc.mcafee.com/corporate/index?page=content&id=SB10396"
+        },
+        {
+            "Source": "url",
+            "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0975"
+        }
+    ],
+    "debian-cve-2019-14615": [
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-2114-1"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-14615"
+        }
+    ],
+    "debian-cve-2019-10220": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-10220"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-2068-1"
+        }
+    ],
+    "http-options-method-enabled": [
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Test_HTTP_Methods_(OTG-CONFIG-006)"
+        }
+    ],
+    "jre-vuln-cve-2023-22025": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpuoct2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22025"
+        }
+    ],
+    "ghostscript-cve-2016-10317": [
+        {
+            "Source": "bid",
+            "Link": "http://www.securityfocus.com/bid/97410"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-10317"
+        }
+    ],
+    "ubuntu-cve-2021-33294": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2021-33294"
+        },
+        {
+            "Source": "ubuntu",
+            "Link": "https://usn.ubuntu.com/6322-1/"
+        }
+    ],
+    "msft-cve-2020-0760": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2020-0760"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484295"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484300"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484319"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484273"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484283"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/4484285"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/3128012"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/3162033"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/3203462"
+        }
+    ],
+    "apache-httpd-cve-2019-10092": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-10092"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-4509"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2019-4126"
+        }
+    ],
+    "msft-cve-2023-35355": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5030214"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5030216"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5030211"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5030217"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5030219"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-35355"
+        }
+    ],
+    "msft-cve-2022-33632": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-33632"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5002112"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5002121"
+        }
+    ],
+    "cifs-smb2-signing-not-required": [
+        {
+            "Source": "url",
+            "Link": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/overview-server-message-block-signing"
+        }
+    ],
+    "jre-vuln-cve-2023-22044": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22044"
+        }
+    ],
+    "jre-vuln-cve-2023-22041": [
+        {
+            "Source": "url",
+            "Link": "http://www.oracle.com/security-alerts/cpujul2023.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-22041"
+        }
+    ],
+    "google-chrome-cve-2023-0700": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0700"
+        },
+        {
+            "Source": "url",
+            "Link": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://crbug.com/1393732"
+        }
+    ],
+    "rc4-cve-2013-2566": [
+        {
+            "Source": "url",
+            "Link": "http://www.nist.gov/manuscript-publication-search.cfm?pub_id=915295"
+        },
+        {
+            "Source": "url",
+            "Link": "https://wiki.mozilla.org/Security/Server_Side_TLS"
+        },
+        {
+            "Source": "url",
+            "Link": "https://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet#Rule_-_Only_Support_Strong_Cryptographic_Ciphers"
+        },
+        {
+            "Source": "url",
+            "Link": "http://support.microsoft.com/kb/245030/"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2013-2566"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.isg.rhul.ac.uk/tls/"
+        },
+        {
+            "Source": "url",
+            "Link": "https://tools.ietf.org/html/rfc7465"
+        }
+    ],
+    "apache-httpd-cve-2022-31813": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-31813"
+        }
+    ],
+    "google-chrome-cve-2023-0699": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-0699"
+        },
+        {
+            "Source": "url",
+            "Link": "https://chromereleases.googleblog.com/2023/02/stable-channel-update-for-desktop.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://crbug.com/1371859"
+        }
+    ],
+    "msft-cve-2023-36434": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031408"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031411"
+        }
+    ],
+    "microsoft-office-cve-2023-36568": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36568"
+        }
+    ],
+    "cifs-smb1-deprecated": [
+        {
+            "Source": "url",
+            "Link": "https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/"
+        }
+    ],
+    "microsoft-edge-cve-2023-4902": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-4902"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-4902"
+        }
+    ],
+    "7-zip-cve-2016-7804": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2016-7804"
+        },
+        {
+            "Source": "url",
+            "Link": "http://jvndb.jvn.jp/jvndb/JVNDB-2016-000211"
+        },
+        {
+            "Source": "url",
+            "Link": "http://www.7-zip.org/history.txt"
+        },
+        {
+            "Source": "url",
+            "Link": "https://jvn.jp/en/jp/JVN76780067/index.html"
+        }
+    ],
+    "debian-cve-2023-2002": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-2002"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-3508-1"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DSA-5480"
+        }
+    ],
+    "msft-cve-2023-36557": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-36557"
+        }
+    ],
+    "database-open-access": [
+        {
+            "Source": "url",
+            "Link": "https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-1.pdf"
+        }
+    ],
+    "certificate-common-name-mismatch": [],
+    "microsoft-edge-cve-2023-1999": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2023-1999"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-1999"
+        }
+    ],
+    "apache-httpd-cve-2022-30556": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/security/vulnerabilities_24.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2022-30556"
+        }
+    ],
+    "debian-cve-2019-14815": [
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0174"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0328"
+        },
+        {
+            "Source": "redhat",
+            "Link": "https://access.redhat.com/errata/RHSA-2020-0339"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2019-14815"
+        },
+        {
+            "Source": "debian",
+            "Link": "https://security-tracker.debian.org/tracker/DLA-1930-1"
+        }
+    ],
+    "windows-hotfix-ms13-098": [
+        {
+            "Source": "disa_severity",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2013-3900"
+        },
+        {
+            "Source": "disa_vmskey",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "iavm",
+            "Link": "http://iase.disa.mil/stigs/iavm-cve.html"
+        },
+        {
+            "Source": "ms",
+            "Link": "http://technet.microsoft.com/security/bulletin/MS13-098"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/2893294"
+        },
+        {
+            "Source": "url",
+            "Link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2013-3900"
+        }
+    ],
+    "msft-cve-2023-36563": [
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031354"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031356"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031358"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031361"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031362"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031364"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031377"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031407"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031408"
+        },
+        {
+            "Source": "mskb",
+            "Link": "https://support.microsoft.com/en-us/kb/5031411"
+        }
+    ],
+    "tls-untrusted-ca": [
+        {
+            "Source": "url",
+            "Link": "http://httpd.apache.org/docs/2.2/mod/mod_ssl.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://nginx.org/en/docs/http/configuring_https_servers.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://support.microsoft.com/en-us/kb/954755"
+        }
+    ],
+    "7-zip-cve-2018-5996": [
+        {
+            "Source": "cve",
+            "Link": "http://nvd.nist.gov/vuln/detail/CVE-2018-5996"
+        },
+        {
+            "Source": "url",
+            "Link": "https://0patch.blogspot.si/2018/02/two-interesting-micropatches-for-7-zip.html"
+        },
+        {
+            "Source": "url",
+            "Link": "https://landave.io/2018/01/7-zip-multiple-memory-corruptions-via-rar-and-zip/"
+        }
+    ],
+    "qotd-amplification": [
+        {
+            "Source": "cert",
+            "Link": "http://www.us-cert.gov/cas/techalerts/TA14-017A.html"
+        },
+        {
+            "Source": "url",
+            "Link": "http://tools.ietf.org/html/rfc865"
+        }
+    ]
+}
