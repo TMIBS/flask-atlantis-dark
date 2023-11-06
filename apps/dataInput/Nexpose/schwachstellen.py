@@ -185,6 +185,26 @@ def get_asset_details(asset_id):
     else:
         print(f"Failed to retrieve asset details. Status Code: {response.status_code}")
         return None
+    
+def generate_asset_data(site_id):
+    if site_id is not None:
+        asset_groups = get_included_asset_groups(site_id)
+        process_asset_data(site_id)
+        if asset_groups is not None:
+            for group in asset_groups:
+                asset_group_id = group['id']
+                assets = get_assets_in_group(asset_group_id)
+                asset_details_list = []
+                for asset_id in assets:
+                    asset_details = get_asset_details(asset_id)
+                    if asset_details is not None:
+                        asset_details_list.append(asset_details)
+                with open(f'apps/static/assets/data/nexpose/asset_data.json', 'w') as f:
+                    json.dump(asset_details_list, f, indent=4)
+        else:
+           print(f'No asset groups found for site "{site_id}"')
+    else:
+        print(f'No site_id given')
 
 def get_vulnerabilities_for_asset(asset_id):
     url = f'{IVM_BASE_URL}/assets/{asset_id}/vulnerabilities'
@@ -263,7 +283,7 @@ def process_asset_data(site_id):
                         }
                         asset_details_list_detail.append(asset_data)
 
-                with open(f'apps/static/assets/data/asset_data_detail.json', 'w') as f:
+                with open(f'apps/static/assets/data/nexpose/asset_data_detail.json', 'w') as f:
                     json.dump(asset_details_list_detail, f, indent=4)
 
 #Vulnerabilities
@@ -355,7 +375,7 @@ def generate_vulnerability_table(siteid):
             vulnerabilities_count += 1
 
     # Save table data to a JSON file
-    with open('apps/static/assets/data/site_8/vulnerability_table_data.json', 'w') as f:
+    with open('apps/static/assets/data/nexpose/site_8/vulnerability_table_data.json', 'w') as f:
         json.dump(table_data, f, indent=4)
     print(f"Total vulnerabilities processed: {vulnerabilities_count}")
                     
@@ -430,7 +450,7 @@ def get_vulnerabilities_details():
             }
 
             vulnerabilities_details_list.append(vulnerability_details)    
-        with open(f'apps/static/assets/data/vulnerabilities_details_data.json', 'w') as f:
+        with open(f'apps/static/assets/data/nexpose/vulnerabilities_details_data.json', 'w') as f:
             json.dump(vulnerabilities_details_list, f, separators=(',', ':'))
     
     return 
@@ -441,13 +461,10 @@ def get_cves_in_site(siteid):
     for vulnerability in vulnerabilities:
         cves_data = get_cves_data(vulnerability)
         if cves_data:
-            print(cves_data)
             cves_set.update(cves_data.split(', '))
-    print(f'Number of CVEs retrieved: {len(cves_set)}')
     
     # Dumping data to a JSON file
-    print(f'File name will be: apps/static/assets/data/site_8/all_cves_site_{siteid}.json')
-    with open(f'apps/static/assets/data/site_8/all_cves_site_{siteid}.json', 'w') as f:
+    with open(f'apps/static/assets/data/nexpose/site_8/all_cves_site_{siteid}.json', 'w') as f:
         json.dump(list(cves_set), f, indent=4)
     return
 
@@ -472,8 +489,7 @@ def get_solutions_in_site(siteid):
         else:
             print(f'Failed to retrieve solutions for vulnerability {vulnerability_id}. Status code: {response.status_code}')
     
-    print(f'File name will be: apps/static/assets/data/site_8/vulnerabilities_solutions_in_{siteid}.json')
-    with open(f'apps/static/assets/data/site_8/vulnerabilities_solutions_in_{siteid}.json', 'w') as f:
+    with open(f'apps/static/assets/data/nexpose/site_8/vulnerabilities_solutions_in_{siteid}.json', 'w') as f:
         json.dump(solutions_dict, f, indent=4)
 
     return
@@ -506,8 +522,7 @@ def get_references_in_site(siteid):
             print(f'Failed to retrieve references for vulnerability {vulnerability_id}. Status code: {response.status_code}')
     
     # Saving to JSON
-    print(f'File name will be: apps/static/assets/data/site_8/vulnerabilities_references_in_{siteid}.json')
-    with open(f'apps/static/assets/data/site_8/vulnerabilities_references_in_{siteid}.json', 'w') as f:
+    with open(f'apps/static/assets/data/nexpose/site_8/vulnerabilities_references_in_{siteid}.json', 'w') as f:
         json.dump(references_dict, f, indent=4)
 
     return
@@ -533,7 +548,6 @@ def get_all_assets():
         }
     ]
     assets = api.asset_search(search_filters, "all")
-    print(f"{len(assets)} assets matched filter {search_filters}")
     return assets
 
 def get_assets_in_site(siteid):
@@ -549,7 +563,6 @@ def get_assets_in_site(siteid):
         }
     ]
     assets = api.asset_search(search_filters, "all")
-    print(f"{len(assets)} assets matched filter {search_filters}")
     return assets
 
 def get_vulnerabilities_in_site(siteid):
@@ -560,7 +573,6 @@ def get_vulnerabilities_in_site(siteid):
         vulnerabilities = get_vulnerabilities_for_asset(asset_id)
         for vulnerability in vulnerabilities:
             unique_vulnerabilities.add(vulnerability['id'])
-    print(f"Number of unique vulnerabilities found: {len(unique_vulnerabilities)}")
     return list(unique_vulnerabilities)
 
 def get_all_vulnerabilities():
@@ -571,7 +583,6 @@ def get_all_vulnerabilities():
         vulnerabilities = get_vulnerabilities_for_asset(asset_id)
         for vulnerability in vulnerabilities:
             unique_vulnerabilities.add(vulnerability['id'])
-    print(f"Number of unique vulnerabilities found: {len(unique_vulnerabilities)}")
     return list(unique_vulnerabilities)
 
 def get_all_cves():
@@ -580,12 +591,10 @@ def get_all_cves():
     for vulnerability in vulnerabilities:
         cves_data = get_cves_data(vulnerability)
         if cves_data:
-            print(cves_data)
             cves_set.update(cves_data.split(', '))
-    print(f'Number of CVEs retrieved: {len(cves_set)}')
     
     # Dumping data to a JSON file
-    with open('apps/static/assets/data/all_cves.json', 'w') as f:
+    with open('apps/static/assets/data/nexpose/all_cves.json', 'w') as f:
         json.dump(list(cves_set), f, indent=4)
     return
 
@@ -607,7 +616,7 @@ def get_cve_details(cve_id):
             cwe_id = cve_item.cwe[0].value
         
         # Load the CWE names data
-        with open('apps/static/assets/data/cwe_names.json') as f:
+        with open('apps/static/assets/data/nexpose/cwe_names.json') as f:
             cwe_data = json.load(f)
         
         # Search for the CWE name
@@ -627,13 +636,13 @@ def get_cve_details(cve_id):
         return None
     
 def load_cve_ids(siteid):
-    file_path = f"apps/static/assets/data/site_8/all_cves_site_{siteid}.json"
+    file_path = f"apps/static/assets/data/nexpose/site_8/all_cves_site_{siteid}.json"
     with open(file_path, 'r') as file:
         data = json.load(file)
     return data, file_path
 
 def save_cve_details(cve_details, siteid):
-    output_file_path = f"apps/static/assets/data/site_8/all_cves_details_site_{siteid}.json"
+    output_file_path = f"apps/static/assets/data/nexpose/site_8/all_cves_details_site_{siteid}.json"
     with open(output_file_path, 'w') as file:
         json.dump(cve_details, file, indent=4)
         
@@ -697,49 +706,14 @@ def matched():
     return
     
 if __name__ == "__main__":
-    list_all_sites()
     site_name = 'KDO-TVM-Systeme'
-    site_id = find_site_id(site_name)
-    print(site_id)
-    #get_solution_details("ssl-replace-self-signed-cert")
-    #get_solution_details("7-zip-upgrade-23_00")
-    #get_solutions_in_site(site_id)
-    #get_references_in_site(site_id)
-    #get_cve_details_for_site(site_id)
-    #get_cves_in_site(site_id)
-    #get_all_cves()
-    #get_all_assets()
-    #get_assets_in_site(site_id)
-    #get_vulnerabilities_in_site(site_id)
-    #number_of_assets = len(assets)
-    #print(f"Number of assets in site '{site_name}': {number_of_assets}")
-    #asset_ids, asset_count = get_all_assets()
-    #matched()
-    #if asset_ids is not None:
-    #    print(asset_ids)
-    #    print(asset_count)
-    #print(get_vulnerability_details('apache-httpd-cve-2019-10092'))
-    get_vulnerabilities_details()
-    #if site_id is not None:
-    
-        #asset_groups = get_included_asset_groups(site_id)
-        #process_asset_data(site_id)
-        #if asset_groups is not None:
-            #for group in asset_groups:
-                #asset_group_id = group['id']
-                #assets = get_assets_in_group(asset_group_id)
-               # asset_details_list = []
-                #for asset_id in assets:
-                    #asset_details = get_asset_details(asset_id)
-                    #if asset_details is not None:
-                        #asset_details_list.append(asset_details)
-                
-                #with open(f'apps/static/assets/data/asset_data.json', 'w') as f:
-                    #json.dump(asset_details_list, f, indent=4)
-    #generate_vulnerability_table(site_id)
-        #else:
-          #  print(f'No asset groups found for site "{site_name}"')
-    #else:
-        #print(f'Site "{site_name}" not found')
-
-
+    site_id = find_site_id(site_name) # will be 8 for TVM
+    get_cve_details_for_site(site_id) #all_cves_details_site_8.json
+    get_cves_in_site(site_id) # all_cves_site_8.json
+    process_asset_data(site_id) # asset_data_details.json
+    generate_asset_data(site_id) # asset_data.json
+    get_references_in_site(site_id) # vulnerarbilities_references_in_8.json
+    get_solutions_in_site(site_id) # vulnerarbilities_solutions_in_8.json
+    generate_vulnerability_table(site_id) # vulnerability_table_data.json
+    get_all_cves() # all_cves_site_8.json
+    get_vulnerabilities_details() # vulnerabilities_details_data.json

@@ -24,7 +24,6 @@ def get_cve_details(cve_id):
         
         # Search for the CWE name
         cwe_name = next((item['CWE_NAME'] for item in cwe_data if item['CWE_ID'] == cwe_id), None)
-        print(cve_id)
         cve_details = {
             "CVE_ID": cve_id,
             "description": cve_item.descriptions[0].value if hasattr(cve_item, 'descriptions') and cve_item.descriptions else None,
@@ -32,7 +31,6 @@ def get_cve_details(cve_id):
             "CWE_NAME": cwe_name,
             "references": [ref.url for ref in cve_item.references] if hasattr(cve_item, 'references') and cve_item.references else []
         }
-        print(cve_details)
         return cve_details
 
 

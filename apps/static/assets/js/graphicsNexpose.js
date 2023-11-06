@@ -1,5 +1,6 @@
 "use strict";
 function getGraphDataRiskxVulnerabilities() {
+    
     fetch('/processassetsjson')
         .then(response => {
             if (!response.ok) {
@@ -72,7 +73,7 @@ function getGraphDataRiskxVulnerabilities() {
                     }
                     
                 }
-            });                
+            });       
         })
         .catch(error => {
             console.error('There has been a problem with your fetch operation:', error);
@@ -150,7 +151,7 @@ function getGraphDataRiskxInstances() {
                     }
                     
                 }
-            });                
+            });          
         })
         .catch(error => {
             console.error('There has been a problem with your fetch operation:', error);
