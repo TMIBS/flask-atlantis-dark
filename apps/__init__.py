@@ -3,43 +3,41 @@
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from flask import Flask
+from flask import Flask, app, render_template
 from flask_login import LoginManager
-from flask_sqlalchemy import SQLAlchemy
+from flask_oidc import OpenIDConnect
 from importlib import import_module
+from jinja2 import PackageLoader
+from apps.authentication import models
+from .home.routes import blueprint as home_blueprint
+import os
 
-
-db = SQLAlchemy()
 login_manager = LoginManager()
-
+oidc = OpenIDConnect()
 
 def register_extensions(app):
-    db.init_app(app)
+    print(os.getcwd())
     login_manager.init_app(app)
-
+    oidc.init_app(app)
+    print("LoginManager and OIDC initialized with app")
+    models.init_models(app, login_manager)
+    print("Models initialized with app")
 
 def register_blueprints(app):
     for module_name in ('authentication', 'home'):
         module = import_module('apps.{}.routes'.format(module_name))
         app.register_blueprint(module.blueprint)
 
-def configure_database(app):
-
-    @app.before_first_request
-    def initialize_database():
-        db.create_all()
-
-    @app.teardown_request
-    def shutdown_session(exception=None):
-        db.session.remove()
-
-
 def create_app(config):
-    app = Flask(__name__, template_folder='C:\\Users\\tobias.meyer\\Documents\\GitHub\\flask-atlantis-dark\\apps\\templates')
+    app = Flask(__name__)
     app.config.from_object(config)
+    # Use the PackageLoader
+    #app.jinja_loader = PackageLoader('apps')
+    app.register_blueprint(home_blueprint, url_prefix='/')
     register_extensions(app)
     register_blueprints(app)
-    configure_database(app)
     return app
+
+
 
 

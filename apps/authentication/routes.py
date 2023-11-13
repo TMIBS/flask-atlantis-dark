@@ -3,120 +3,93 @@
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from flask import render_template, redirect, request, url_for
-from flask_login import (
-    current_user,
-    login_user,
-    logout_user
-)
-
-from apps import db, login_manager
+from flask import render_template, redirect, request, url_for, session
+from flask_oidc import OpenIDConnect
 from apps.authentication import blueprint
-from apps.authentication.forms import LoginForm, CreateAccountForm
-from apps.authentication.models import Users
+from apps import login_manager
+import jwt
 
-from apps.authentication.util import verify_pass
-
+oidc = OpenIDConnect()
 
 @blueprint.route('/')
 def route_default():
-    return redirect(url_for('authentication_blueprint.login'))
+    if not oidc.user_loggedin:
+        return redirect(url_for('authentication_blueprint.login'))
+    else:
+        # Get user's information
+        user_info = oidc.user_getinfo(['name','preferred_username', 'email', 'groups'])
+        user_full_name = user_info.get('name', 'Unknown User')
+        # Get user's roles
+        access_token_info = oidc.get_access_token()  # Example method, adjust based on your setup
+        decoded_token = jwt.decode(access_token_info, options={"verify_signature": False})
+        user_roles = decoded_token.get('realm_access', {}).get('roles', [])
+        session['user_roles'] = user_roles
+        user_groups = user_info.get('groups', [])
+        session['user_groups'] = user_groups
+        session['fullname'] = user_full_name
+        first_name = user_full_name.split(' ')[0]
+        session['first_name'] = first_name
+        initials = "".join([word[0] for word in user_full_name.split()][:2]).upper()  # This will get the first two initials
+        session['initials'] = initials
+        print(initials)
+        # You can store user_info in a session or do other operations as required
+        next_url = session.pop('next_url', None)
+        print("next_url: ", next_url)
+        if next_url:
+            return redirect(next_url)  # Redirect to the originally requested URL
+        else:
+            return redirect(url_for('home_blueprint.index'))
 
-
-# Login & Registration
+@blueprint.route('/oidc/callback')
+def oidc_callback():
+    print("Hello3")
+    if oidc.user_loggedin:
+        user_info = oidc.user_getinfo(['preferred_username', 'email', 'groups'])
+        access_token_info = oidc.get_access_token()  # Example method, adjust based on your setup
+        user_roles = oidc.user_getfield('realm_access').get('roles', [])
+        session['user_roles'] = user_roles
+        print(user_roles)
+        user_groups = user_info.get('groups', [])
+        session['user_groups'] = user_groups
+        # You can store user_info in a session or do other operations as required
+        next_url = session.pop('next_url', None)
+        print("next_url: ", next_url)
+        if next_url:
+            return redirect(next_url)  # Redirect to the originally requested URL
+        else:
+            return redirect(url_for('home_blueprint.index'))
+    else:
+        return redirect(url_for('authentication_blueprint.login'))
 
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
-    login_form = LoginForm(request.form)
-    if 'login' in request.form:
-
-        # read form data
-        username = request.form['username']
-        password = request.form['password']
-
-        # Locate user
-        user = Users.query.filter_by(username=username).first()
-
-        # Check the password
-        if user and verify_pass(password, user.password):
-
-            login_user(user)
-            return redirect(url_for('authentication_blueprint.route_default'))
-
-        # Something (user or pass) is not ok
-        return render_template('accounts/login.html',
-                               msg='Wrong user or password',
-                               form=login_form)
-
-    if not current_user.is_authenticated:
-        return render_template('accounts/login.html',
-                               form=login_form)
-    return redirect(url_for('home_blueprint.index'))
-
-
-@blueprint.route('/register', methods=['GET', 'POST'])
-def register():
-    create_account_form = CreateAccountForm(request.form)
-    if 'register' in request.form:
-
-        username = request.form['username']
-        email = request.form['email']
-
-        # Check usename exists
-        user = Users.query.filter_by(username=username).first()
-        if user:
-            return render_template('accounts/register.html',
-                                   msg='Username already registered',
-                                   success=False,
-                                   form=create_account_form)
-
-        # Check email exists
-        user = Users.query.filter_by(email=email).first()
-        if user:
-            return render_template('accounts/register.html',
-                                   msg='Email already registered',
-                                   success=False,
-                                   form=create_account_form)
-
-        # else we can create the user
-        user = Users(**request.form)
-        db.session.add(user)
-        db.session.commit()
-
-        # Delete user from session
-        logout_user()
-        
-        return render_template('accounts/register.html',
-                               msg='User created successfully.',
-                               success=True,
-                               form=create_account_form)
-
+    print("Accessed login route")
+    if not oidc.user_loggedin:
+        return redirect(url_for('authentication_blueprint.login'))
     else:
-        return render_template('accounts/register.html', form=create_account_form)
-
+        return redirect(url_for('home_blueprint.index'))
 
 @blueprint.route('/logout')
 def logout():
-    logout_user()
+    print("before:" + oidc.user_loggedin)
+    oidc.logout()
+    print("after:" + oidc.user_loggedin)
     return redirect(url_for('authentication_blueprint.login'))
 
 
 # Errors
 
-@login_manager.unauthorized_handler
-def unauthorized_handler():
-    return render_template('home/page-403.html'), 403
-
+#@login_manager.unauthorized_handler
+#def unauthorized_handler():
+#    return render_template('home/page-403.html'), 403
 
 @blueprint.errorhandler(403)
 def access_forbidden(error):
     return render_template('home/page-403.html'), 403
 
-
 @blueprint.errorhandler(404)
 def not_found_error(error):
     return render_template('home/page-404.html'), 404
-
 
 @blueprint.errorhandler(500)
 def internal_error(error):

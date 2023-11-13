@@ -4,33 +4,41 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 from apps.home import blueprint
-from flask import render_template, request, jsonify, url_for
+from flask import app, redirect, render_template, request, jsonify, send_file, url_for, session
 from flask_login import login_required
 from jinja2 import TemplateNotFound
+from flask_oidc import OpenIDConnect
 import json
 import requests
 
-@blueprint.route('/index')
-@login_required
-def index():
+oidc = OpenIDConnect()
 
-    return render_template('home/index.html', segment='index')
+@blueprint.route('/index')
+def index():
+    if not oidc.user_loggedin:
+        session['next_url'] = request.url
+        return redirect(url_for('authentication_blueprint.login'))
+    else:
+        return render_template('home/index.html', segment='index', user_loggedin= oidc.user_loggedin)
 
 
 @blueprint.route('/<template>')
-@login_required
 def route_template(template):
-
     try:
+        if not oidc.user_loggedin:
+        # Store the originally requested URL in the session
+            session['next_url'] = request.url
+            print(request.url)
+            return redirect(url_for('authentication_blueprint.login'))
+        else:
+            if not template.endswith('.html'):
+                template += '.html'
+            
+            # Detect the current page
+            segment = get_segment(request)
 
-        if not template.endswith('.html'):
-            template += '.html'
-
-        # Detect the current page
-        segment = get_segment(request)
-
-        # Serve the file (if exists) from app/templates/home/FILE.html
-        return render_template("home/" + template, segment=segment)
+            # Serve the file (if exists) from app/templates/home/FILE.html
+            return render_template("home/" + template, segment=segment, user_loggedin = oidc.user_loggedin)
 
     except TemplateNotFound:
         return render_template('home/page-404.html'), 404
@@ -41,16 +49,11 @@ def route_template(template):
 
 # Helper - Extract current page name from request
 def get_segment(request):
-
     try:
-
         segment = request.path.split('/')[-1]
-
         if segment == '':
             segment = 'index'
-
         return segment
-
     except:
         return None
 

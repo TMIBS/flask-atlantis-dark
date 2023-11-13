@@ -1,64 +1,85 @@
-		<!-- Sidebar -->
-		<div class="sidebar sidebar-style-2" data-background-color="white">			
-			<div class="sidebar-wrapper scrollbar scrollbar-inner">
-				<div class="sidebar-content">
-				{% if current_user.is_authenticated %}	
-					<ul class="nav nav-primary">
-						<li class="nav-item {% if 'index' in segment %} active {% endif %}">
-							<a href="index.html" class="collapsed" aria-expanded="false">
-								<i class="fas fa-home"></i>
-								<p>Dashboard</p>
-								<span class="item"></span>	
-							</a>
-						</li>
-						<li class="nav-section">
-							<i class="fa fa-ellipsis-h"></i>
-							<h4 class="text-section">Bereiche</h4>
-						</li>
-						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
-							<a href="ad.html">
-								<i class="fas fa-sitemap"></i>
-								<p>Active Directory</p>
-								<span class="item"></span>
-							</a>
-						</li>
-						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
-							<a href="Schwachstellen.html">
-								<i class="fas fa-shield-alt"></i>
-								<p>Schwachstellen</p>
-								<span class="item"></span>
-							</a>
-						</li>
-						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
-							<a>
-								<i class="fas fa-server"></i>
-								<p>Dateiserver</p>
-								<span class="item"></span>
-							</a>
-						</li>
-						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
-							<a>
-								<i class="fas fa-users"></i>
-								<p>Benutzer</p>
-								<span class="item"></span>
-							</a>
-						</li>
-						<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
-							<a>
-								<i class="fas fa-desktop"></i>
-								<p>ITSM</p>
-								<span class="item"></span>
-							</a>
-						</li>
-					</ul>
-				{% else %}
-					<ul class="nav nav-primary">
-						<li class="mx-4 mt-2">
-						</li>
-					</ul>
-				{% endif %}	
-				</div>
-			</div>
+<style>
+.sidebar-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}	
+.sidebar-main-content {
+	flex: 1;  /* take up available space */
+	overflow-y: auto;
+}
+.sidebar-logout {
+	margin-top: auto;  /* push to the bottom */
+	margin-bottom: 20px;
+}
+</style>
+<!-- Sidebar -->
+<div class="sidebar sidebar-style-2" data-background-color="white">			
+	<div class="scroll-wrapper sidebar-wrapper scrollbar scrollbar-inner" style="position: relative;">
+		{% if user_loggedin %}	
+		<div class="sidebar-content">
+			<ul class="nav nav-primary">
+				<li class="nav-item {% if 'index' in segment %} active {% endif %}">
+					<a href="index.html" class="collapsed" aria-expanded="false">
+						<i class="fas fa-home"></i>
+						<p>Dashboard</p>
+						<span class="item"></span>	
+					</a>
+				</li>
+				<li class="nav-section">
+					<i class="fa fa-ellipsis-h"></i>
+					<h4 class="text-section">Segments</h4>
+				</li>
+				<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
+					<a href="ad.html">
+						<i class="fas fa-sitemap"></i>
+						<p>Active Directory</p>
+						<span class="item"></span>
+					</a>
+				</li>
+				<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
+					<a href="Schwachstellen.html">
+						<i class="fas fa-shield-alt"></i>
+						<p>Vulnerabilities</p>
+						<span class="item"></span>
+					</a>
+				</li>
+				<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
+					<a>
+						<i class="fas fa-server"></i>
+						<p>File Server</p>
+						<span class="item"></span>
+					</a>
+				</li>
+				<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
+					<a>
+						<i class="fas fa-users"></i>
+						<p>Users</p>
+						<span class="item"></span>
+					</a>
+				</li>
+				<li class="nav-item {% if 'ui-' in segment %} active {% endif %}">
+					<a>
+						<i class="fas fa-desktop"></i>
+						<p>ITSM</p>
+						<span class="item"></span>
+					</a>
+				</li>
+			</ul>
 		</div>
-        <!-- End Sidebar -->
+		<div class="sidebar-logout">
+			<ul class="nav nav-primary">
+				<li class="nav-item">
+					<a href="/logout">
+						<i class="fas fa-sign-out-alt"></i>
+						<p>Logout</p>
+					</a>
+				</li>
+			</ul>
+		</div>	
+		{% endif %}	
+	</div>
+</div>
+
+<!-- End Sidebar -->
         

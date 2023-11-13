@@ -24,7 +24,7 @@
 			<!-- Navbar Header -->
 			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="white">
 				
-				{% if current_user.is_authenticated %}
+				{% if user_loggedin %}
 				<div class="container-fluid">
 					<div class="collapse" id="search-nav">
 						<form class="navbar-left navbar-form nav-search mr-md-3">
@@ -47,10 +47,31 @@
 						
 						<li class="nav-item dropdown hidden-caret">
 							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
-								<div class="avatar-sm">
-									<img src="/static/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+								<div class="avatar-sm" style="background-color: #007BFF; color: #fff; font-weight: bold; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
+									<!-- Display initials if available -->
+									{% if session['initials'] %}
+										{{ session['initials'] }}
+									{% else %}
+										<img src="/static/assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
+									{% endif %}
 								</div>
 							</a>
+							<ul class="dropdown-menu dropdown-user animated fadeIn">
+								<div class="dropdown-user-scroll scrollbar-outer">
+									<li>
+										<!-- Display the user's full name -->
+										<div class="user-info-header">
+											<h1 class="dropdown-item" href="" style="font-size: 16px;">{{ session['fullname'] }}</h1>
+										</div>
+										<div class="dropdown-divider"></div>
+										<h1 class="dropdown-item" href="" style="font-size: 16px;">Your Groups:</h1>
+										<!-- Display the user's roles -->
+										{% for role in session['user_roles'] %}
+											<a class="dropdown-item" href="">{{ role }}</a>
+										{% endfor %}
+									</li>
+								</div>
+							</ul>
 						</li>
 					</ul>
 				</div>

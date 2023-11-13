@@ -4,22 +4,27 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 import os
+import secrets
 
 class Config(object):
-
-    basedir = os.path.abspath(os.path.dirname(__file__))
-
-    # Set up the App SECRET_KEY
-    # SECRET_KEY = config('SECRET_KEY'  , default='S#perS3crEt_007')
-    SECRET_KEY = os.getenv('SECRET_KEY', 'S#perS3crEt_007')
-
-    # This will create a file in <app> FOLDER
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3')
-    SQLALCHEMY_TRACK_MODIFICATIONS = False 
-
-    # Assets Management
-    ASSETS_ROOT = os.getenv('ASSETS_ROOT', '/static/assets')    
-    
+    OIDC_CLIENT_ID = 'tvm-local-dashboard'
+    OIDC_CLIENT_SECRET = 'YuzPpQrhRYvl3FFI9zq6Wnv5Apgp2NzG'
+    SECRET_KEY = secrets.token_hex(16)
+    OIDC_ISSUER = 'https://keycloak-test.kdo.de/auth/realms/KDO'
+    OIDC_SCOPES = ['openid', 'email']
+    OIDC_COOKIE_SECURE = False  # Set to True for production  
+    OIDC_CLIENT_SECRETS = {
+    "web": {
+        "client_id": "tvm-local-dashboard",
+        "client_secret": "YuzPpQrhRYvl3FFI9zq6Wnv5Apgp2NzG",
+        "auth_uri": "https://keycloak-test.kdo.de/auth/realms/KDO/auth",
+        "token_uri": "https://keycloak-test.kdo.de/auth/realms/KDO/token",
+        "issuer": "https://keycloak-test.kdo.de/auth/realms/KDO",
+        "redirect_uris": [
+            "http://localhost:5000/oidc/callback"
+        ]
+    }
+}
 class ProductionConfig(Config):
     DEBUG = False
 
@@ -28,22 +33,11 @@ class ProductionConfig(Config):
     REMEMBER_COOKIE_HTTPONLY = True
     REMEMBER_COOKIE_DURATION = 3600
 
-    # PostgreSQL database
-    SQLALCHEMY_DATABASE_URI = '{}://{}:{}@{}:{}/{}'.format(
-        os.getenv('DB_ENGINE'   , 'mysql'),
-        os.getenv('DB_USERNAME' , 'appseed_db_usr'),
-        os.getenv('DB_PASS'     , 'pass'),
-        os.getenv('DB_HOST'     , 'localhost'),
-        os.getenv('DB_PORT'     , 3306),
-        os.getenv('DB_NAME'     , 'appseed_db')
-    ) 
-
 class DebugConfig(Config):
     DEBUG = True
-
 
 # Load all possible configurations
 config_dict = {
     'Production': ProductionConfig,
-    'Debug'     : DebugConfig
+    'Debug': DebugConfig
 }

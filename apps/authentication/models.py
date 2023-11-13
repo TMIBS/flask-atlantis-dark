@@ -1,48 +1,67 @@
-# -*- encoding: utf-8 -*-
-"""
-Copyright (c) 2019 - present AppSeed.us
-"""
-
+# Description: Authentication models
+""" from apps import login_manager
+from apps import oidc
 from flask_login import UserMixin
 
-from apps import db, login_manager
-
-from apps.authentication.util import hash_pass
-
-class Users(db.Model, UserMixin):
-
-    __tablename__ = 'Users'
-
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(64), unique=True)
-    email = db.Column(db.String(64), unique=True)
-    password = db.Column(db.LargeBinary)
-
-    def __init__(self, **kwargs):
-        for property, value in kwargs.items():
-            # depending on whether value is an iterable or not, we must
-            # unpack it's value (when **kwargs is request.form, some values
-            # will be a 1-element list)
-            if hasattr(value, '__iter__') and not isinstance(value, str):
-                # the ,= unpack of a singleton fails PEP8 (travis flake8 test)
-                value = value[0]
-
-            if property == 'password':
-                value = hash_pass(value)  # we need bytes here (not plain str)
-
-            setattr(self, property, value)
-
-    def __repr__(self):
-        return str(self.username)
-
-
 @login_manager.user_loader
-def user_loader(id):
-    return Users.query.filter_by(id=id).first()
+def user_loader(user_id):
+     # Fetch user details from OIDC
+    user_info = oidc.user_getinfo(['preferred_username', 'email'])
+    username = user_info['preferred_username']
+    email = user_info['email']
 
+    # You'd normally query your database here for the user
+    # For the sake of illustration, let's use a dummy user object
+    class DummyUser(UserMixin):
+        def __init__(self, id, username, email):
+            self.id = id
+            self.username = username
+            self.email = email
+
+    return DummyUser(user_id, username, email)
 
 @login_manager.request_loader
-def request_loader(request):
-    username = request.form.get('username')
-    user = Users.query.filter_by(username=username).first()
-    return user if user else None
+def request_loader(_):
+    # This is not necessary with OIDC.
+    pass """
+from flask_oidc import OpenIDConnect
+from flask_login import UserMixin
+
+oidc = OpenIDConnect()
+
+class User(UserMixin):
+    def __init__(self, id, username, email):
+        self.id = id
+        self.username = username
+        self.email = email
+
+def init_models(app, login_manager):
+    @login_manager.user_loader
+    def load_user(user_id):
+        print("load_user called with user_id:", user_id)
+        if oidc.user_loggedin:
+            print("User is logged in with OIDC")
+            user_info = oidc.user_getinfo(['preferred_username', 'email'])
+            username = user_info['preferred_username']
+            email = user_info['email']
+            print("Returning user object with username:", username)
+            return User(user_id, username, email)
+        return None
+
+    @login_manager.request_loader
+    def load_user_from_request(req):
+        auth_header = req.headers.get('Authorization')
+        if auth_header:
+            token = auth_header.split(" ")[1]
+        else:
+            token = req.args.get('token')
+    
+        if token:
+            user_info = oidc.user_getinfo(['preferred_username', 'email'], token=token)
+            if user_info:
+                username = user_info['preferred_username']
+                email = user_info['email']
+                return User(token, username, email)
+        return None
+
+
